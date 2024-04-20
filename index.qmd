@@ -3,3 +3,5 @@ title: "Introduction"
 ---
 
 This is the knowledge base for the Kolachalama lab at BU.
+
+It will host a collection of tutorials useful for new members, and information about the ongoing projects. 
