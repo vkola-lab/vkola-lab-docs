@@ -8,6 +8,8 @@ To learn more about working with Quarto websites see [here](https://quarto.org/d
 
 To link to another page, use markdown syntax. For example `[this link](practical/workstations.qmd)` points to the page about the workstations: [this link](practical/workstations.qmd).
 
+To publish on github pages see [here](https://quarto.org/docs/publishing/github-pages.html)
+
 # Navigation Sidebar
 The sidebar is automatically generated from the available documents. 
 

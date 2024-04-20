@@ -8,6 +8,8 @@ Some common libraries:
 - [monai](https://monai.io/index.html)
 - [nilearn](https://nilearn.github.io/dev/index.html)
 
+We should link to Mike's videos on MRIs
+
 ```python
 import nibabel
 ```
