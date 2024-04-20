@@ -1,0 +1,38 @@
+{
+  "index.qmd": {
+    "index.html": "c08aa2d1"
+  },
+  "about.qmd": {
+    "about.html": "00c75799"
+  },
+  "MRI.qmd": {
+    "MRI.html": "87093f49"
+  },
+  "workstations.qmd": {
+    "workstations.html": "72f11ea3"
+  },
+  "data_organization.qmd": {
+    "data_organization.html": "76e4abff"
+  },
+  "projects/index.qmd": {
+    "index.html": "db1c2af6"
+  },
+  "practical/index.qmd": {
+    "index.html": "1b4eb2e0"
+  },
+  "practical/workstations.qmd": {
+    "workstations.html": "193631e0"
+  },
+  "practical/data_organization.qmd": {
+    "data_organization.html": "83685348"
+  },
+  "practical/MRI.qmd": {
+    "MRI.html": "53e2033c"
+  },
+  "projects/adrd.qmd": {
+    "adrd.html": "ac41ed8b"
+  },
+  "projects/neurogpt.qmd": {
+    "neurogpt.html": "102571c3"
+  }
+}

@@ -1,0 +1,27 @@
+project:
+  type: website
+  output-dir: docs
+
+website:
+  title: "Kolachalama Docs"
+  navbar:
+    search: false
+    # left:
+      # - href: index.qmd
+        # text: Home
+      # - about.qmd
+  sidebar:
+    style: "floating"
+    search: true
+    contents: auto
+
+format:
+  html:
+    theme: 
+      light: flatly
+      dark: darkly
+    css: styles.css
+    toc: true
+
+
+

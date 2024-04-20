@@ -1,0 +1,13 @@
+---
+title: "Working with MRIs"
+---
+
+Some common libraries:
+- [nibabel](https://nipy.org/nibabel/)
+- [monai](https://monai.io/index.html)
+- [nilearn](https://nilearn.github.io/dev/index.html)
+
+```python
+import nibabel
+```
+
