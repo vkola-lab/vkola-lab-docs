@@ -4,7 +4,7 @@
     "href": "practical/MRI.html",
     "title": "Working with MRIs",
     "section": "",
-    "text": "Some common libraries:\n\nnibabel\nmonai\nnilearn\n\nimport nibabel",
+    "text": "Some common libraries:\n\nnibabel\nmonai\nnilearn\n\nWe should link to Mike’s videos on MRIs\nimport nibabel",
     "crumbs": [
       "Working in the lab",
       "Working with MRIs"
