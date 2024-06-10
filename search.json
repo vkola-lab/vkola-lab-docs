@@ -1,0 +1,73 @@
+[
+  {
+    "objectID": "projects/index.html",
+    "href": "projects/index.html",
+    "title": "Projects",
+    "section": "",
+    "text": "A short summary of the active and past projects in the lab",
+    "crumbs": [
+      "Projects"
+    ]
+  },
+  {
+    "objectID": "practical/workstations.html",
+    "href": "practical/workstations.html",
+    "title": "Workstations",
+    "section": "",
+    "text": "There are three workstations available in the lab: ayan, echo, and manu. To access them, you can either use VSCode or SSH.\n\nGPUs\n\n\n\n\n\n\n\n\n\nName\nOS\nRAM\nGPU\n\n\n\n\nayan\nUbuntu 18.04.6 LTS\n126 GB\n4 x NVIDIA RTX 2080 Ti (11 GB)\n\n\necho\nUbuntu 20.04.6 LTS\n252 GB\n4 x NVIDIA RTX 3090 (24 GB)\n\n\nmanu\nUbuntu 18.04.6 LTS\n126 GB\n4 x NVIDIA RTX 2080 Ti (11 GB)\n\n\n\nYou can check the status of the GPUs using nvidia-smi. For very long jobs please use SCC.\n\n\nStorage\n\n\nRemote access via SSH\nYou can get a remote shell on echo using\n$ ssh user@echo.bumc.bu.edu\nWhere user is your BU username. You can also authenticate using an SSH key, so you won’t have to enter your password as often: if you don’t already have an SSH key pair, generate it\n$ ssh-keygen\nthen copy your publick key to the workstation\nssh-copy-id user@echo.bumc.bu.edu\nYou are now able to login without password.\n\n\nUsing VSCode",
+    "crumbs": [
+      "Working in the lab",
+      "Workstations"
+    ]
+  },
+  {
+    "objectID": "practical/data_organization.html",
+    "href": "practical/data_organization.html",
+    "title": "Data Organization",
+    "section": "",
+    "text": "All datasets in the lab should follow the BIDS standard",
+    "crumbs": [
+      "Working in the lab",
+      "Data Organization"
+    ]
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Introduction",
+    "section": "",
+    "text": "This is the knowledge base for the Kolachalama lab at BU.\nIt will host a collection of tutorials useful for new members, and information about the ongoing projects."
+  },
+  {
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "About this website",
+    "section": "",
+    "text": "This site is a Quarto website.\nTo learn more about working with Quarto websites see here\nTo link to another page, use markdown syntax. For example [this link](practical/workstations.qmd) points to the page about the workstations: this link.\nTo publish on github pages see here\n\nNavigation Sidebar\nThe sidebar is automatically generated from the available documents.\n\nNavigation item titles will be read from the title field of documents.\nSub-directories will create sections and will be automatically titled based on the directory name (including adding capitalization and substituting spaces for dashes and underscores). Use an index.qmd in the directory to provide an explicit title if you don’t like the automatic one.\nOrder is alphabetical (by filename) unless a numeric order field is provided in document metadata.\n\n\n\nQuarto and VS Code\nThere is a VSCode extension that makes editing Quarto documents easier. See also the Quarto (documentation about VSCode integration)[https://quarto.org/docs/tools/vscode.html]",
+    "crumbs": [
+      "About this website"
+    ]
+  },
+  {
+    "objectID": "datasets/ADNI.html",
+    "href": "datasets/ADNI.html",
+    "title": "ADNI Documentation",
+    "section": "",
+    "text": "The ADNI dataset is available for download on LONI.",
+    "crumbs": [
+      "Datasets",
+      "ADNI Documentation"
+    ]
+  },
+  {
+    "objectID": "practical/MRI.html",
+    "href": "practical/MRI.html",
+    "title": "Working with MRIs",
+    "section": "",
+    "text": "Some common libraries:\n\nnibabel\nmonai\nnilearn\n\nWe should link to Mike’s videos on MRIs\nimport nibabel",
+    "crumbs": [
+      "Working in the lab",
+      "Working with MRIs"
+    ]
+  }
+]
