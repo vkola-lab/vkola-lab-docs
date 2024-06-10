@@ -1,1 +1,1 @@
-Sitemap: https://mbellitti.github.io/kolachalama-docs/sitemap.xml
+Sitemap: https://vkola-lab.github.io/vkola-lab-docs/sitemap.xml

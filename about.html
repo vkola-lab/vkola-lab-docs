@@ -242,7 +242,7 @@ ul.task-list li input[type="checkbox"] {
 <p>This site is a Quarto website.</p>
 <p>To learn more about working with Quarto websites see <a href="https://quarto.org/docs/websites">here</a></p>
 <p>To link to another page, use markdown syntax. For example <code>[this link](practical/workstations.qmd)</code> points to the page about the workstations: <a href="./practical/workstations.html">this link</a>.</p>
-<p>To publish on github pages see <a href="https://quarto.org/docs/publishing/github-pages.html">here</a></p>
+<p>To contribute, clone the repo <a href="https://github.com/vkola-lab/vkola-lab-docs"><code>vkola-lab-docs</code></a>, edit the relevan markdown files and commit to the <code>main</code> branch. The website will be automatically built and deployed using GitHub Actions.</p>
 <section id="navigation-sidebar" class="level1">
 <h1>Navigation Sidebar</h1>
 <p>The sidebar is automatically generated from the available documents.</p>
@@ -485,7 +485,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
   });
     var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
     var mailtoRegex = new RegExp(/^mailto:/);
-      var filterRegex = new RegExp("https:\/\/mbellitti\.github\.io\/kolachalama-docs\/");
+      var filterRegex = new RegExp("https:\/\/vkola-lab\.github\.io\/vkola-lab-docs\/");
     var isInternal = (href) => {
         return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
     }
