@@ -1,0 +1,10 @@
+---
+title: 'Bibliography Management'
+author: ''
+date: last-modified
+published-title: "Last Updated"
+---
+
+Zotero
+
+Mendeley
