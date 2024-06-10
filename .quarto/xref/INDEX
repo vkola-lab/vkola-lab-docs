@@ -97,5 +97,20 @@
   },
   "Practical Stuff/setting up your development environment.qmd": {
     "setting up your development environment.html": "32114595"
+  },
+  "useful links.qmd": {
+    "useful links.html": "ba2731d8"
+  },
+  "Data Science/plotting.qmd": {
+    "plotting.html": "4df775e9"
+  },
+  "Data Science/git_and_github.qmd": {
+    "git_and_github.html": "8cc9e30b"
+  },
+  "Data Science/MRI.qmd": {
+    "MRI.html": "24f7b064"
+  },
+  "Data Science/tidy dataframes.qmd": {
+    "tidy dataframes.html": "ad286adb"
   }
 }
