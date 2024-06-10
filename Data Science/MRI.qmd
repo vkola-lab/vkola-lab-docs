@@ -1,0 +1,23 @@
+---
+title: 'Working with MRIs'
+author: "Matteo Bellitti"
+date: last-modified
+published-title: "Last Updated"
+---
+
+Some common libraries:
+
+- [nibabel](https://nipy.org/nibabel/)
+- [monai](https://monai.io/index.html)
+- [nilearn](https://nilearn.github.io/dev/index.html)
+
+```python
+import nibabel
+```
+
+## Fundamentals of Brain MRI
+Two lectures by Dr. Michael Romano, a former member of the lab
+
+{{< video <iframe width="560" height="315" src="https://www.youtube.com/embed/WNTuU70hSi0?si=vMl3-9ehwcCIOaa2" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe> >}}
+
+{{< video <iframe width="560" height="315" src="https://www.youtube.com/embed/zS2nd5X1DF4?si=SL9yC4lH8HF_98In" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe> >}}

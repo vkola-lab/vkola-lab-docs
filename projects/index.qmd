@@ -1,4 +1,0 @@
----
-title: "Projects"
----
-A short summary of the active and past projects in the lab

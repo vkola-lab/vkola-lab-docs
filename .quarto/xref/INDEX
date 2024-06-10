@@ -43,5 +43,59 @@
   },
   "datasets/A4.qmd": {
     "A4.html": "66616b90"
+  },
+  "contributing.qmd": {
+    "contributing.html": "d339fbdf"
+  },
+  "00 - index.qmd": {
+    "00 - index.html": "b3f71a4b"
+  },
+  "02 - projects/adrd.qmd": {
+    "adrd.html": "ae159fc5"
+  },
+  "02 - projects/index.qmd": {
+    "index.html": "481ab7c2"
+  },
+  "02 - projects/neurogpt.qmd": {
+    "neurogpt.html": "4b681ea2"
+  },
+  "02 - projects/neuropath.qmd": {
+    "neuropath.html": "b9086f1b"
+  },
+  "03 - datasets/A4.qmd": {
+    "A4.html": "c3f48fca"
+  },
+  "03 - datasets/ADNI.qmd": {
+    "ADNI.html": "104fe3f1"
+  },
+  "04 - practical/MRI.qmd": {
+    "MRI.html": "857f55b9"
+  },
+  "04 - practical/data_organization.qmd": {
+    "data_organization.html": "38e434c8"
+  },
+  "04 - practical/index.qmd": {
+    "index.html": "251c7627"
+  },
+  "04 - practical/workstations.qmd": {
+    "workstations.html": "bd363a4a"
+  },
+  "99 - contributing.qmd": {
+    "99 - contributing.html": "5f2cd5c7"
+  },
+  "Practical Stuff/workstations.qmd": {
+    "workstations.html": "a86ac816"
+  },
+  "Practical Stuff/data_organization.qmd": {
+    "data_organization.html": "c974dee6"
+  },
+  "Practical Stuff/git_and_github.qmd": {
+    "git_and_github.html": "ca1a796d"
+  },
+  "Practical Stuff/MRI.qmd": {
+    "MRI.html": "773f2b08"
+  },
+  "Practical Stuff/setting up your development environment.qmd": {
+    "setting up your development environment.html": "32114595"
   }
 }

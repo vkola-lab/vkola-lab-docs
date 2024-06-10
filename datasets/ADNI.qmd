@@ -1,5 +1,8 @@
 ---
-title: "ADNI Documentation"
+title: 'ADNI'
+author: '' 
+date: last-modified
+published-title: "Last Updated"
 ---
 
 The ADNI dataset is available for download on [LONI](https://adni.loni.usc.edu/).

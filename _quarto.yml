@@ -3,16 +3,33 @@ project:
 
 website:
   title: "Kolachalama Docs"
+  repo-url: https://github.com/vkola-lab/vkola-lab-docs
+  repo-actions: [edit, issue, source]
+  page-navigation: false # create prev/next links 
+  reader-mode: false # enable reader mode toggle, hides the sideabars
   navbar:
-    search: false
+    search: true
     # left:
       # - href: index.qmd
         # text: Home
-      # - about.qmd
+
   sidebar:
     style: "floating"
     search: true
-    contents: auto
+    border: false
+    # tools: # mini icons in sidebar
+      # - icon: github
+        # href: https://github.com/vkola-lab
+      # - icon: youtube
+        # href: https://www.youtube.com/@vijayakolachalama
+    contents: 
+      - index.qmd
+      - contributing.qmd
+      - auto: Practical Stuff
+      - auto: datasets
+      - auto: projects
+      - auto: Data Science
+      - useful links.qmd
 
 format:
   html:

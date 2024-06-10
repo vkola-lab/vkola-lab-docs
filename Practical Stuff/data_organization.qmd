@@ -1,0 +1,21 @@
+---
+title: 'ADNI'
+author: 'Matteo Bellitti' 
+date: last-modified
+published-title: "Last Updated"
+---
+# Data Organization
+The datasets are currently being moved to the `/18TB/Datasets` directory on `echo`. The same directory is also accessible as `/18TB_echo/Datasets` from `ayan` and `manu`.
+
+All datasets in the lab should follow the [BIDS standard](https://bids-specification.readthedocs.io/en/stable/index.html)
+
+# Read/Write access
+By default everyone has read access to the datasets, but to preven accidents only members of the `dataset-editors` are allowed do write (or delete) from the dataset directory. To check if you are in this group, look at the output of
+```
+$ groups
+```
+If you have sudo access and need to add a user to the group, use 
+```
+$ sudo usermod -aG dataset-editors user
+```
+

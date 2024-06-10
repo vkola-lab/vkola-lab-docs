@@ -1,0 +1,16 @@
+---
+title: 'Making Figures'
+author: '' 
+date: last-modified
+published-title: "Last Updated"
+---
+
+Matplotlib
+
+Seaborn -> tall/tidy datasets?
+
+Plotly/Altair?
+
+Explain sequential/diverging/qualitative color palettes
+
+How to make publication ready figures 

@@ -1,5 +1,0 @@
----
-title: "Data Organization"
----
-
-All datasets in the lab should follow the [BIDS standard](https://bids-specification.readthedocs.io/en/stable/index.html)
