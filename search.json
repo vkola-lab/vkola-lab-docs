@@ -1,73 +1,109 @@
 [
   {
-    "objectID": "practical/workstations.html",
-    "href": "practical/workstations.html",
-    "title": "Workstations",
+    "objectID": "contributing.html",
+    "href": "contributing.html",
+    "title": "Contribute to this website",
     "section": "",
-    "text": "There are three workstations available in the lab: ayan, echo, and manu. To access them, you can either use VSCode or SSH.\n\nGPUs\n\n\n\n\n\n\n\n\n\nName\nOS\nRAM\nGPU\n\n\n\n\nayan\nUbuntu 18.04.6 LTS\n126 GB\n4 x NVIDIA RTX 2080 Ti (11 GB)\n\n\necho\nUbuntu 20.04.6 LTS\n252 GB\n4 x NVIDIA RTX 3090 (24 GB)\n\n\nmanu\nUbuntu 18.04.6 LTS\n126 GB\n4 x NVIDIA RTX 2080 Ti (11 GB)\n\n\n\nYou can check the status of the GPUs using nvidia-smi. For very long jobs please use SCC.\n\n\nStorage\n\n\nRemote access via SSH\nYou can get a remote shell on echo using\n$ ssh user@echo.bumc.bu.edu\nWhere user is your BU username. You can also authenticate using an SSH key, so you won’t have to enter your password as often: if you don’t already have an SSH key pair, generate it\n$ ssh-keygen\nthen copy your publick key to the workstation\nssh-copy-id user@echo.bumc.bu.edu\nYou are now able to login without password.\n\n\nUsing VSCode",
+    "text": "This site is a Quarto website.\nTo learn more about working with Quarto websites see here\nTo link to another page, use markdown syntax. For example [this link](practical/workstations.qmd) points to the page about the workstations: this link.\nTo contribute, you have a few options:\n\nFor small changes, click the “Edit this page” link on the right of the page you want to change. It will redirect you to a markdown editor on GitHub.\nYou can also clone the repo vkola-lab-docs, edit the relevant markdown files and commit to the main branch. The website will be automatically built and deployed using GitHub Actions.\n\n\nCreating a new page\nCreate a new .qmd file and make sure to include the YAML front matter. For example, this page starts with\n---\ntitle: \"Contribute to this website\"\nauthor: \"Matteo Bellitti\"\ndate: last-modified\npublished-title: \"Last Updated\"\n---\nMake sure to only change the title and author fields. Then write the rest of the document in markdown. See markdown basics on Quarto’s website for a quick introduction.\nThe title field is used to generate the sidebar. Sub-directories will create sections and will be automatically titled based on the directory name (including adding capitalization and substituting spaces for dashes and underscores).\n\n\nQuarto and VS Code\nThere is a VSCode extension that makes editing Quarto documents easier. See also the Quarto documentation about VSCode integration",
     "crumbs": [
-      "Working in the lab",
-      "Workstations"
-    ]
-  },
-  {
-    "objectID": "projects/index.html",
-    "href": "projects/index.html",
-    "title": "Projects",
-    "section": "",
-    "text": "A short summary of the active and past projects in the lab",
-    "crumbs": [
-      "Projects"
+      "Contribute to this website"
     ]
   },
   {
     "objectID": "index.html",
     "href": "index.html",
-    "title": "Introduction",
+    "title": "Welcome",
     "section": "",
-    "text": "This is the knowledge base for the Kolachalama lab at BU.\nIt will host a collection of tutorials useful for new members, and information about the ongoing projects."
+    "text": "Welcome\nThis is the knowledge base for the Kolachalama lab at BU.\nIf you have any suggestion, comment, or would like to see some particular topic covered, please open an issue on GitHub.",
+    "crumbs": [
+      "Welcome"
+    ]
+  },
+  {
+    "objectID": "Practical Stuff/workstations.html",
+    "href": "Practical Stuff/workstations.html",
+    "title": "Using the Workstations",
+    "section": "",
+    "text": "There are three workstations available in the lab: ayan, echo, and manu. To access them, you can either use VSCode or SSH.\n\nGPUs\n\n\n\n\n\n\n\n\n\nName\nOS\nRAM\nGPU\n\n\n\n\nayan\nUbuntu 18.04.6 LTS\n126 GB\n4 x NVIDIA RTX 2080 Ti (11 GB)\n\n\necho\nUbuntu 20.04.6 LTS\n252 GB\n4 x NVIDIA RTX 3090 (24 GB)\n\n\nmanu\nUbuntu 18.04.6 LTS\n126 GB\n4 x NVIDIA RTX 2080 Ti (11 GB)\n\n\n\nYou can check the status of the GPUs using nvidia-smi. For very long jobs please use SCC.\n\n\nRemote access via SSH\nYou can get a remote shell on echo using\n$ ssh user@echo.bumc.bu.edu\nWhere user is your BU username. You can also authenticate using an SSH key, so you won’t have to enter your password as often: if you don’t already have an SSH key pair, generate it\n$ ssh-keygen\nthen copy your public key to the workstation\nssh-copy-id user@echo.bumc.bu.edu\nYou are now able to login without typing your password.\n\n\nUsing VSCode\n\n\nStorage",
+    "crumbs": [
+      "Practical Stuff",
+      "Using the Workstations"
+    ]
   },
   {
     "objectID": "datasets/ADNI.html",
     "href": "datasets/ADNI.html",
-    "title": "ADNI Documentation",
+    "title": "ADNI",
     "section": "",
     "text": "The ADNI dataset is available for download on LONI.",
     "crumbs": [
       "Datasets",
-      "ADNI Documentation"
+      "ADNI"
     ]
   },
   {
-    "objectID": "about.html",
-    "href": "about.html",
-    "title": "About this website",
+    "objectID": "Data Science/plotting.html",
+    "href": "Data Science/plotting.html",
+    "title": "Making Figures",
     "section": "",
-    "text": "This site is a Quarto website.\nTo learn more about working with Quarto websites see here\nTo link to another page, use markdown syntax. For example [this link](practical/workstations.qmd) points to the page about the workstations: this link.\nTo contribute, clone the repo vkola-lab-docs, edit the relevan markdown files and commit to the main branch. The website will be automatically built and deployed using GitHub Actions.\n\nNavigation Sidebar\nThe sidebar is automatically generated from the available documents.\n\nNavigation item titles will be read from the title field of documents.\nSub-directories will create sections and will be automatically titled based on the directory name (including adding capitalization and substituting spaces for dashes and underscores). Use an index.qmd in the directory to provide an explicit title if you don’t like the automatic one.\nOrder is alphabetical (by filename) unless a numeric order field is provided in document metadata.\n\n\n\nQuarto and VS Code\nThere is a VSCode extension that makes editing Quarto documents easier. See also the Quarto documentation about VSCode integration",
+    "text": "Matplotlib\nSeaborn -&gt; tall/tidy datasets?\nPlotly/Altair?\nExplain sequential/diverging/qualitative color palettes\nHow to make publication ready figures",
     "crumbs": [
-      "About this website"
+      "Data Science",
+      "Making Figures"
     ]
   },
   {
-    "objectID": "practical/MRI.html",
-    "href": "practical/MRI.html",
+    "objectID": "Data Science/MRI.html",
+    "href": "Data Science/MRI.html",
     "title": "Working with MRIs",
     "section": "",
-    "text": "Some common libraries:\n\nnibabel\nmonai\nnilearn\n\nWe should link to Mike’s videos on MRIs\nimport nibabel",
+    "text": "Some common libraries:",
     "crumbs": [
-      "Working in the lab",
+      "Data Science",
       "Working with MRIs"
     ]
   },
   {
-    "objectID": "practical/data_organization.html",
-    "href": "practical/data_organization.html",
-    "title": "Data Organization",
-    "section": "",
-    "text": "All datasets in the lab should follow the BIDS standard",
+    "objectID": "Data Science/MRI.html#fundamentals-of-brain-mri",
+    "href": "Data Science/MRI.html#fundamentals-of-brain-mri",
+    "title": "Working with MRIs",
+    "section": "Fundamentals of Brain MRI",
+    "text": "Fundamentals of Brain MRI\nTwo lectures by Dr. Michael Romano, a former member of the lab",
     "crumbs": [
-      "Working in the lab",
-      "Data Organization"
+      "Data Science",
+      "Working with MRIs"
+    ]
+  },
+  {
+    "objectID": "Practical Stuff/data_organization.html",
+    "href": "Practical Stuff/data_organization.html",
+    "title": "ADNI",
+    "section": "",
+    "text": "Data Organization\nThe datasets are currently being moved to the /18TB/Datasets directory on echo. The same directory is also accessible as /18TB_echo/Datasets from ayan and manu.\nAll datasets in the lab should follow the BIDS standard\n\n\nRead/Write access\nBy default everyone has read access to the datasets, but to preven accidents only members of the dataset-editors are allowed do write (or delete) from the dataset directory. To check if you are in this group, look at the output of\n$ groups\nIf you have sudo access and need to add a user to the group, use\n$ sudo usermod -aG dataset-editors user",
+    "crumbs": [
+      "Practical Stuff",
+      "ADNI"
+    ]
+  },
+  {
+    "objectID": "Practical Stuff/setting up your development environment.html",
+    "href": "Practical Stuff/setting up your development environment.html",
+    "title": "Setting up your development environment",
+    "section": "",
+    "text": "VScode -&gt; also learn how to connect to the workstations\nlearn how to use the workstations\nconda environrments?\ngit and github -&gt; explain how to use the github organization",
+    "crumbs": [
+      "Practical Stuff",
+      "Setting up your development environment"
+    ]
+  },
+  {
+    "objectID": "useful links.html",
+    "href": "useful links.html",
+    "title": "Useful Links",
+    "section": "",
+    "text": "Website\nvkola-lab\n\n\nGitHub\nvkola-lab\n\n\nSlack\nkolachalamalab\n\n\nYouTube\n@vijayakolachalama\n\n\nHugging Face\nvkola-lab",
+    "crumbs": [
+      "Useful Links"
     ]
   }
 ]

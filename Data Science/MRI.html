@@ -6,8 +6,10 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
+<meta name="author" content="Matteo Bellitti">
+<meta name="dcterms.date" content="2024-06-10">
 
-<title>Kolachalama Docs - Neuropath stuff</title>
+<title>Kolachalama Docs - Working with MRIs</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -19,6 +21,40 @@ ul.task-list li input[type="checkbox"] {
   width: 0.8em;
   margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
   vertical-align: middle;
+}
+/* CSS for syntax highlighting */
+pre > code.sourceCode { white-space: pre; position: relative; }
+pre > code.sourceCode > span { line-height: 1.25; }
+pre > code.sourceCode > span:empty { height: 1.2em; }
+.sourceCode { overflow: visible; }
+code.sourceCode > span { color: inherit; text-decoration: inherit; }
+div.sourceCode { margin: 1em 0; }
+pre.sourceCode { margin: 0; }
+@media screen {
+div.sourceCode { overflow: auto; }
+}
+@media print {
+pre > code.sourceCode { white-space: pre-wrap; }
+pre > code.sourceCode > span { text-indent: -5em; padding-left: 5em; }
+}
+pre.numberSource code
+  { counter-reset: source-line 0; }
+pre.numberSource code > span
+  { position: relative; left: -4em; counter-increment: source-line; }
+pre.numberSource code > span > a:first-child::before
+  { content: counter(source-line);
+    position: relative; left: -1em; text-align: right; vertical-align: baseline;
+    border: none; display: inline-block;
+    -webkit-touch-callout: none; -webkit-user-select: none;
+    -khtml-user-select: none; -moz-user-select: none;
+    -ms-user-select: none; user-select: none;
+    padding: 0 4px; width: 4em;
+  }
+pre.numberSource { margin-left: 3em;  padding-left: 4px; }
+div.sourceCode
+  {   }
+@media screen {
+pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
 }
 </style>
 
@@ -95,7 +131,7 @@ ul.task-list li input[type="checkbox"] {
       <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
         <i class="bi bi-layout-text-sidebar-reverse"></i>
       </button>
-        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../projects/neurogpt.html">Projects</a></li><li class="breadcrumb-item"><a href="../projects/neuropath.html">Neuropath stuff</a></li></ol></nav>
+        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../Data Science/git_and_github.html">Data Science</a></li><li class="breadcrumb-item"><a href="../Data Science/MRI.html">Working with MRIs</a></li></ol></nav>
         <a class="flex-grow-1" role="button" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
         </a>
       <button type="button" class="btn quarto-search-button" aria-label="" onclick="window.quartoOpenSearch();">
@@ -190,7 +226,7 @@ ul.task-list li input[type="checkbox"] {
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../projects/neuropath.html" class="sidebar-item-text sidebar-link active">
+  <a href="../projects/neuropath.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Neuropath stuff</span></a>
   </div>
 </li>
@@ -213,7 +249,7 @@ ul.task-list li input[type="checkbox"] {
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../Data Science/MRI.html" class="sidebar-item-text sidebar-link">
+  <a href="../Data Science/MRI.html" class="sidebar-item-text sidebar-link active">
  <span class="menu-text">Working with MRIs</span></a>
   </div>
 </li>
@@ -243,21 +279,39 @@ ul.task-list li input[type="checkbox"] {
 <div id="quarto-sidebar-glass" class="quarto-sidebar-collapse-item" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item"></div>
 <!-- margin-sidebar -->
     <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
-        
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">On this page</h2>
+   
+  <ul>
+  <li><a href="#fundamentals-of-brain-mri" id="toc-fundamentals-of-brain-mri" class="nav-link active" data-scroll-target="#fundamentals-of-brain-mri">Fundamentals of Brain MRI</a></li>
+  </ul>
+<div class="toc-actions"><ul><li><a href="https://github.com/vkola-lab/vkola-lab-docs/edit/main/Data Science/MRI.qmd" class="toc-action"><i class="bi bi-github"></i>Edit this page</a></li><li><a href="https://github.com/vkola-lab/vkola-lab-docs/issues/new" class="toc-action"><i class="bi empty"></i>Report an issue</a></li><li><a href="https://github.com/vkola-lab/vkola-lab-docs/blob/main/Data Science/MRI.qmd" class="toc-action"><i class="bi empty"></i>View source</a></li></ul></div></nav>
     </div>
 <!-- main -->
 <main class="content" id="quarto-document-content">
 
-<header id="title-block-header" class="quarto-title-block default"><nav class="quarto-page-breadcrumbs quarto-title-breadcrumbs d-none d-lg-block" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../projects/neurogpt.html">Projects</a></li><li class="breadcrumb-item"><a href="../projects/neuropath.html">Neuropath stuff</a></li></ol></nav>
+<header id="title-block-header" class="quarto-title-block default"><nav class="quarto-page-breadcrumbs quarto-title-breadcrumbs d-none d-lg-block" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../Data Science/git_and_github.html">Data Science</a></li><li class="breadcrumb-item"><a href="../Data Science/MRI.html">Working with MRIs</a></li></ol></nav>
 <div class="quarto-title">
-<h1 class="title">Neuropath stuff</h1>
+<h1 class="title">Working with MRIs</h1>
 </div>
 
 
 
 <div class="quarto-title-meta">
 
+    <div>
+    <div class="quarto-title-meta-heading">Author</div>
+    <div class="quarto-title-meta-contents">
+             <p>Matteo Bellitti </p>
+          </div>
+  </div>
     
+    <div>
+    <div class="quarto-title-meta-heading">Last Updated</div>
+    <div class="quarto-title-meta-contents">
+      <p class="date">June 10, 2024</p>
+    </div>
+  </div>
   
     
   </div>
@@ -267,8 +321,21 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
+<p>Some common libraries:</p>
+<ul>
+<li><a href="https://nipy.org/nibabel/">nibabel</a></li>
+<li><a href="https://monai.io/index.html">monai</a></li>
+<li><a href="https://nilearn.github.io/dev/index.html">nilearn</a></li>
+</ul>
+<div class="sourceCode" id="cb1"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> nibabel</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<section id="fundamentals-of-brain-mri" class="level2">
+<h2 class="anchored" data-anchor-id="fundamentals-of-brain-mri">Fundamentals of Brain MRI</h2>
+<p>Two lectures by Dr.&nbsp;Michael Romano, a former member of the lab</p>
+<div class="quarto-video"><iframe data-external="1" src="https://www.youtube.com/embed/WNTuU70hSi0?si=vMl3-9ehwcCIOaa2" width="560" height="315" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe></div>
+<div class="quarto-video"><iframe data-external="1" src="https://www.youtube.com/embed/zS2nd5X1DF4?si=SL9yC4lH8HF_98In" width="560" height="315" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe></div>
 
 
+</section>
 
 </main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
@@ -829,4 +896,4 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
 
 
 
-<footer class="footer"><div class="nav-footer"><div class="nav-footer-center"><div class="toc-actions"><ul><li><a href="https://github.com/vkola-lab/vkola-lab-docs/edit/main/projects/neuropath.qmd" class="toc-action"><i class="bi bi-github"></i>Edit this page</a></li><li><a href="https://github.com/vkola-lab/vkola-lab-docs/issues/new" class="toc-action"><i class="bi empty"></i>Report an issue</a></li><li><a href="https://github.com/vkola-lab/vkola-lab-docs/blob/main/projects/neuropath.qmd" class="toc-action"><i class="bi empty"></i>View source</a></li></ul></div></div></div></footer></body></html>
+<footer class="footer"><div class="nav-footer"><div class="nav-footer-center"><div class="toc-actions d-sm-block d-md-none"><ul><li><a href="https://github.com/vkola-lab/vkola-lab-docs/edit/main/Data Science/MRI.qmd" class="toc-action"><i class="bi bi-github"></i>Edit this page</a></li><li><a href="https://github.com/vkola-lab/vkola-lab-docs/issues/new" class="toc-action"><i class="bi empty"></i>Report an issue</a></li><li><a href="https://github.com/vkola-lab/vkola-lab-docs/blob/main/Data Science/MRI.qmd" class="toc-action"><i class="bi empty"></i>View source</a></li></ul></div></div></div></footer></body></html>
