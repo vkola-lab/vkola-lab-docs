@@ -31,6 +31,17 @@
     ]
   },
   {
+    "objectID": "Practical Stuff/data_organization.html",
+    "href": "Practical Stuff/data_organization.html",
+    "title": "Data Organization",
+    "section": "",
+    "text": "Data Organization\nThe datasets are currently being moved to the /18TB/Datasets directory on echo. The same directory is also accessible as /18TB_echo/Datasets from ayan and manu.\nAll datasets in the lab should follow the BIDS standard\n\n\nRead/Write access\nBy default everyone has read access to the datasets, but to preven accidents only members of the dataset-editors are allowed do write (or delete) from the dataset directory. To check if you are in this group, look at the output of\n$ groups\nIf you have sudo access and need to add a user to the group, use\n$ sudo usermod -aG dataset-editors user",
+    "crumbs": [
+      "Practical Stuff",
+      "Data Organization"
+    ]
+  },
+  {
     "objectID": "datasets/ADNI.html",
     "href": "datasets/ADNI.html",
     "title": "ADNI",
@@ -75,14 +86,25 @@
     ]
   },
   {
-    "objectID": "Practical Stuff/data_organization.html",
-    "href": "Practical Stuff/data_organization.html",
-    "title": "ADNI",
+    "objectID": "Practical Stuff/writing manuscripts.html",
+    "href": "Practical Stuff/writing manuscripts.html",
+    "title": "Writing manuscripts",
     "section": "",
-    "text": "Data Organization\nThe datasets are currently being moved to the /18TB/Datasets directory on echo. The same directory is also accessible as /18TB_echo/Datasets from ayan and manu.\nAll datasets in the lab should follow the BIDS standard\n\n\nRead/Write access\nBy default everyone has read access to the datasets, but to preven accidents only members of the dataset-editors are allowed do write (or delete) from the dataset directory. To check if you are in this group, look at the output of\n$ groups\nIf you have sudo access and need to add a user to the group, use\n$ sudo usermod -aG dataset-editors user",
+    "text": "Depends on the journal\nLaTeX + Overleaf\nWord -&gt; templates, bibliography (mendeley)\nAlso explain how to integrate with bibliography management",
     "crumbs": [
       "Practical Stuff",
-      "ADNI"
+      "Writing manuscripts"
+    ]
+  },
+  {
+    "objectID": "Practical Stuff/bibliography management.html",
+    "href": "Practical Stuff/bibliography management.html",
+    "title": "Bibliography Management",
+    "section": "",
+    "text": "Zotero\nMendeley",
+    "crumbs": [
+      "Practical Stuff",
+      "Bibliography Management"
     ]
   },
   {
