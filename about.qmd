@@ -18,4 +18,4 @@ The sidebar is automatically generated from the available documents.
 3. Order is alphabetical (by filename) unless a numeric order field is provided in document metadata.
 
 # Quarto and VS Code
-There is a VSCode extension that makes editing Quarto documents easier. See also the Quarto (documentation about VSCode integration)[https://quarto.org/docs/tools/vscode.html]
+There is a VSCode extension that makes editing Quarto documents easier. See also the Quarto [documentation about VSCode integration](https://quarto.org/docs/tools/vscode.html)
