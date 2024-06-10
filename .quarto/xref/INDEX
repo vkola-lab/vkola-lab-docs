@@ -37,5 +37,11 @@
   },
   "projects/neuropath.qmd": {
     "neuropath.html": "944f27a2"
+  },
+  "datasets/ADNI.qmd": {
+    "ADNI.html": "f9b2853a"
+  },
+  "datasets/A4.qmd": {
+    "A4.html": "66616b90"
   }
 }

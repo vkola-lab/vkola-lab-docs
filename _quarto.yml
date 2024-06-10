@@ -1,6 +1,5 @@
 project:
   type: website
-  output-dir: docs
 
 website:
   title: "Kolachalama Docs"
@@ -23,5 +22,5 @@ format:
     css: styles.css
     toc: true
 
-
-
+execute:
+  freeze: auto
