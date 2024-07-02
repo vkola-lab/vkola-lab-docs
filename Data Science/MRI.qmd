@@ -1,8 +1,6 @@
 ---
 title: 'Working with MRIs'
 author: "Matteo Bellitti"
-date: last-modified
-published-title: "Last Updated"
 ---
 
 Some common libraries:

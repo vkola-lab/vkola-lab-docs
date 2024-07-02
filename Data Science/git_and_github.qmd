@@ -1,7 +1,5 @@
 ---
 title: 'Git and GitHub'
 author: '' 
-date: last-modified
-published-title: "Last Updated"
 ---
 

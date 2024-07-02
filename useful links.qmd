@@ -6,7 +6,7 @@ author: ''
 | | |
 | :-- | :-- |
 | Website | [vkola-lab](https://vkola-lab.github.io/) |
-| Calendar | [Google Calendar](https://calendar.google.com/calendar/u/1?cid=Y184ZjE2M2FiNGFmZWVlYjQwNzFmZmE4NTc4OTMwMjQ2NzJhNWQ3Njk5ZGNjYTBmZjcwNWNiYzIxNWUzYjI3ZmJjQGdyb3VwLmNhbGVuZGFyLmdvb2dsZS5jb20) | 
+| Calendar | [Lab Google Calendar](https://calendar.google.com/calendar/u/1?cid=Y184ZjE2M2FiNGFmZWVlYjQwNzFmZmE4NTc4OTMwMjQ2NzJhNWQ3Njk5ZGNjYTBmZjcwNWNiYzIxNWUzYjI3ZmJjQGdyb3VwLmNhbGVuZGFyLmdvb2dsZS5jb20) | 
 | GitHub | [vkola-lab](https://github.com/vkola-lab) |
 | Slack | [kolachalamalab](https://kolachalamalab.slack.com) |
 | YouTube | [@vijayakolachalama](https://www.youtube.com/@vijayakolachalama) |

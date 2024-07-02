@@ -1,8 +1,6 @@
 ---
 title: 'Making Figures'
 author: '' 
-date: last-modified
-published-title: "Last Updated"
 ---
 
 Matplotlib

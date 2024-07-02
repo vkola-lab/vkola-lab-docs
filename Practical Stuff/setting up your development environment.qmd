@@ -1,14 +1,12 @@
 ---
 title: 'Setting up your development environment'
 author: "Matteo Bellitti"
-date: last-modified
-published-title: "Last Updated"
 ---
 
 VScode -> also learn how to connect to the workstations
 
 learn how to use the workstations
 
-conda environrments?
+conda environments
 
 git and github -> explain how to use the github organization
