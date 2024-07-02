@@ -80,7 +80,7 @@
     "href": "useful links.html",
     "title": "Useful Links",
     "section": "",
-    "text": "Website\nvkola-lab\n\n\nCalendar\nGoogle Calendar\n\n\nGitHub\nvkola-lab\n\n\nSlack\nkolachalamalab\n\n\nYouTube\n@vijayakolachalama\n\n\nHugging Face\nvkola-lab",
+    "text": "Website\nvkola-lab\n\n\nCalendar\nLab Google Calendar\n\n\nGitHub\nvkola-lab\n\n\nSlack\nkolachalamalab\n\n\nYouTube\n@vijayakolachalama\n\n\nHugging Face\nvkola-lab",
     "crumbs": [
       "Useful Links"
     ]
@@ -112,7 +112,7 @@
     "href": "Practical Stuff/setting up your development environment.html",
     "title": "Setting up your development environment",
     "section": "",
-    "text": "VScode -&gt; also learn how to connect to the workstations\nlearn how to use the workstations\nconda environrments?\ngit and github -&gt; explain how to use the github organization",
+    "text": "VScode -&gt; also learn how to connect to the workstations\nlearn how to use the workstations\nconda environments\ngit and github -&gt; explain how to use the github organization",
     "crumbs": [
       "Practical Stuff",
       "Setting up your development environment"
