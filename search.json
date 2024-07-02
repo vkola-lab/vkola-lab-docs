@@ -1,66 +1,12 @@
 [
   {
-    "objectID": "contributing.html",
-    "href": "contributing.html",
-    "title": "Contribute to this website",
-    "section": "",
-    "text": "This site is a Quarto website.\nTo learn more about working with Quarto websites see here\nTo link to another page, use markdown syntax. For example [this link](practical/workstations.qmd) points to the page about the workstations: this link.\nTo contribute, you have a few options:\n\nFor small changes, click the “Edit this page” link on the right of the page you want to change. It will redirect you to a markdown editor on GitHub.\nYou can also clone the repo vkola-lab-docs, edit the relevant markdown files and commit to the main branch. The website will be automatically built and deployed using GitHub Actions.\n\n\nCreating a new page\nCreate a new .qmd file and make sure to include the YAML front matter. For example, this page starts with\n---\ntitle: \"Contribute to this website\"\nauthor: \"Matteo Bellitti\"\ndate: last-modified\npublished-title: \"Last Updated\"\n---\nMake sure to only change the title and author fields. Then write the rest of the document in markdown. See markdown basics on Quarto’s website for a quick introduction.\nThe title field is used to generate the sidebar. Sub-directories will create sections and will be automatically titled based on the directory name (including adding capitalization and substituting spaces for dashes and underscores).\n\n\nQuarto and VS Code\nThere is a VSCode extension that makes editing Quarto documents easier. See also the Quarto documentation about VSCode integration",
-    "crumbs": [
-      "Contribute to this website"
-    ]
-  },
-  {
     "objectID": "index.html",
     "href": "index.html",
-    "title": "Welcome",
+    "title": "Welcome!",
     "section": "",
-    "text": "Welcome\nThis is the knowledge base for the Kolachalama lab at BU.\nIf you have any suggestion, comment, or would like to see some particular topic covered, please open an issue on GitHub.",
+    "text": "Welcome!\nThis is the knowledge base for the Kolachalama lab at BU.\nIf you have any suggestion, comment, or would like to see some particular topic covered, please open an issue on GitHub.",
     "crumbs": [
-      "Welcome"
-    ]
-  },
-  {
-    "objectID": "Practical Stuff/workstations.html",
-    "href": "Practical Stuff/workstations.html",
-    "title": "Using the Workstations",
-    "section": "",
-    "text": "There are three workstations available in the lab: ayan, echo, and manu. To access them, you can either use VSCode or SSH.\n\nGPUs\n\n\n\n\n\n\n\n\n\nName\nOS\nRAM\nGPU\n\n\n\n\nayan\nUbuntu 18.04.6 LTS\n126 GB\n4 x NVIDIA RTX 2080 Ti (11 GB)\n\n\necho\nUbuntu 20.04.6 LTS\n252 GB\n4 x NVIDIA RTX 3090 (24 GB)\n\n\nmanu\nUbuntu 18.04.6 LTS\n126 GB\n4 x NVIDIA RTX 2080 Ti (11 GB)\n\n\n\nYou can check the status of the GPUs using nvidia-smi. For very long jobs please use SCC.\n\n\nRemote access via SSH\nYou can get a remote shell on echo using\n$ ssh user@echo.bumc.bu.edu\nWhere user is your BU username. You can also authenticate using an SSH key, so you won’t have to enter your password as often: if you don’t already have an SSH key pair, generate it\n$ ssh-keygen\nthen copy your public key to the workstation\nssh-copy-id user@echo.bumc.bu.edu\nYou are now able to login without typing your password.\n\n\nUsing VSCode\n\n\nStorage",
-    "crumbs": [
-      "Practical Stuff",
-      "Using the Workstations"
-    ]
-  },
-  {
-    "objectID": "Practical Stuff/data_organization.html",
-    "href": "Practical Stuff/data_organization.html",
-    "title": "Data Organization",
-    "section": "",
-    "text": "Data Organization\nThe datasets are currently being moved to the /18TB/Datasets directory on echo. The same directory is also accessible as /18TB_echo/Datasets from ayan and manu.\nAll datasets in the lab should follow the BIDS standard\n\n\nRead/Write access\nBy default everyone has read access to the datasets, but to preven accidents only members of the dataset-editors are allowed do write (or delete) from the dataset directory. To check if you are in this group, look at the output of\n$ groups\nIf you have sudo access and need to add a user to the group, use\n$ sudo usermod -aG dataset-editors user",
-    "crumbs": [
-      "Practical Stuff",
-      "Data Organization"
-    ]
-  },
-  {
-    "objectID": "datasets/ADNI.html",
-    "href": "datasets/ADNI.html",
-    "title": "ADNI",
-    "section": "",
-    "text": "The ADNI dataset is available for download on LONI.",
-    "crumbs": [
-      "Datasets",
-      "ADNI"
-    ]
-  },
-  {
-    "objectID": "Data Science/plotting.html",
-    "href": "Data Science/plotting.html",
-    "title": "Making Figures",
-    "section": "",
-    "text": "Matplotlib\nSeaborn -&gt; tall/tidy datasets?\nPlotly/Altair?\nExplain sequential/diverging/qualitative color palettes\nHow to make publication ready figures",
-    "crumbs": [
-      "Data Science",
-      "Making Figures"
+      "Welcome!"
     ]
   },
   {
@@ -86,6 +32,39 @@
     ]
   },
   {
+    "objectID": "Practical Stuff/SCC.html",
+    "href": "Practical Stuff/SCC.html",
+    "title": "SCC",
+    "section": "",
+    "text": "“The Boston University Shared Computing Cluster (SCC) is a heterogeneous Linux cluster […] suitable for high-performance computing.”\n\nIn practice, you should run your code on SCC if you\n\nNeed to access one of the large datasets, and/or\nNeed a lot of computing power (CPU or GPU)\n\nYou should only run on the workstations (or your own device)\n\nFor quick prototyping\nIf your analysis is light: if you’re using tabular data only or doing a regression analysis it’s probably fine.\n\n\nLearning SCC\nTo learn how to use SCC, check out the introductory guides on BU’s website.",
+    "crumbs": [
+      "Practical Stuff",
+      "SCC"
+    ]
+  },
+  {
+    "objectID": "Practical Stuff/data_organization.html",
+    "href": "Practical Stuff/data_organization.html",
+    "title": "Data Organization",
+    "section": "",
+    "text": "Data Organization\nAll datasets are currently being moved to SCC.\n\n\n\n\n\n\nWorkstation storage policy changes\n\n\n\nAs we migrate all datasets to SCC storage, we will implement a storage restriction on the workstations. A final decision has not been made yet, but every lab member will be allowed ~150GB to discourage dataset duplication while allowing a reasonable amount of working space.\n\n\nFor small stuff (e.g. tabular data) you can make temporary copies to the /18TB/Datasets directory on echo, which is also accessible as /18TB_echo/Datasets from ayan and manu.\nAll datasets in the lab should follow the BIDS standard if datatype makes sense (e.g. MRI, PET, but not necessarily tabular data).\n\n\nRead/Write access to datasets on the workstations\nBy default everyone has read access to the datasets, but to prevent accidents only members of the dataset-editors are allowed do write (or delete) from the dataset directory. To check if you are in this group, look at the output of\n$ groups\nIf you have sudo access and need to add a user to the group, use\n$ sudo usermod -aG dataset-editors user",
+    "crumbs": [
+      "Practical Stuff",
+      "Data Organization"
+    ]
+  },
+  {
+    "objectID": "Practical Stuff/workstations.html",
+    "href": "Practical Stuff/workstations.html",
+    "title": "Using the Workstations",
+    "section": "",
+    "text": "There are three workstations available in the lab: ayan, echo, and manu. To access them, you can either use VSCode or SSH.\n\nGPUs\n\n\n\n\n\n\n\n\n\nName\nOS\nRAM\nGPU\n\n\n\n\nayan\nUbuntu 18.04.6 LTS\n126 GB\n4 x NVIDIA RTX 2080 Ti (11 GB)\n\n\necho\nUbuntu 20.04.6 LTS\n252 GB\n4 x NVIDIA RTX 3090 (24 GB)\n\n\nmanu\nUbuntu 18.04.6 LTS\n126 GB\n4 x NVIDIA RTX 2080 Ti (11 GB)\n\n\n\nYou can check the status of the GPUs using nvidia-smi. For very long jobs please use SCC.\n\n\nRemote access via SSH\nYou can get a remote shell on echo using\n$ ssh user@echo.bumc.bu.edu\nWhere user is your BU username. You can also authenticate using an SSH key, so you won’t have to enter your password as often: if you don’t already have an SSH key pair, generate it\n$ ssh-keygen\nthen copy your public key to the workstation\nssh-copy-id user@echo.bumc.bu.edu\nYou are now able to login without typing your password.\n\n\nUsing VSCode\n\n\nStorage",
+    "crumbs": [
+      "Practical Stuff",
+      "Using the Workstations"
+    ]
+  },
+  {
     "objectID": "Practical Stuff/writing manuscripts.html",
     "href": "Practical Stuff/writing manuscripts.html",
     "title": "Writing manuscripts",
@@ -94,6 +73,16 @@
     "crumbs": [
       "Practical Stuff",
       "Writing manuscripts"
+    ]
+  },
+  {
+    "objectID": "useful links.html",
+    "href": "useful links.html",
+    "title": "Useful Links",
+    "section": "",
+    "text": "Website\nvkola-lab\n\n\nCalendar\nGoogle Calendar\n\n\nGitHub\nvkola-lab\n\n\nSlack\nkolachalamalab\n\n\nYouTube\n@vijayakolachalama\n\n\nHugging Face\nvkola-lab",
+    "crumbs": [
+      "Useful Links"
     ]
   },
   {
@@ -108,6 +97,17 @@
     ]
   },
   {
+    "objectID": "Practical Stuff/general good practices.html",
+    "href": "Practical Stuff/general good practices.html",
+    "title": "Good practices",
+    "section": "",
+    "text": "Read “Good enough practices in scientific computing” (Wilson et al. 2017). They talk about how to organize projects, why and how you should made your dataframes tidy, and how to make sure your work is readable, reproducible, and thus extensible.\nIf you expect you’ll be writing a lot of code, also read “Best practices for Scientific Computing” (Wilson et al. 2014), which goes more in depth about software engineering (encapsulation, version control, profiling, debugging, documenting, collaborating).\nTaken mostly from those two papers, a checklist of good practices (and how they’re implemented in the lab):\n\nCollaboration\n\nUse GitHub for everything project-related.\nCreate an overview of your project: write a good `README.md`\nCreate a shared to-do list for the project: use GitHub issues.\nOpen issues on GitHub liberally to discuss ideas, problems, and suggestions.\nMake the license explicit: we recommend the MIT licence.\n\nData management\n\nSave the raw data: all raw datasets live on SCC. You can make temporary copies on one of the workstations, but be aware of the space limitations.\nEnsure the raw data is backed up: that’s why we’re using SCC, they handle all the backups.\nRecord all the steps used to process data.\n\nSoftware\n\nCheck into git (and GitHub) anything that has been written by hand by a human (except data tables).\nWrite explanatory comments at the top of your scripts, with at least one example on how to use it.\nKeep changes small and commit often.\nBe ruthless about eliminating duplication.\nMake dependencies and requirements explicit (e.g. requirements.txt)\n\nManuscripts\n\nKeep a running manuscript as you’re working on the project: we use a mix of Overleaf and Word\nUse a reference manager to automatically handle the bibliography: we recommend Zotero and Mendeley.\n\n\n\n\n\n\nReferences\n\nWilson, Greg, D. A. Aruliah, C. Titus Brown, Neil P. Chue Hong, Matt Davis, Richard T. Guy, Steven H. D. Haddock, et al. 2014. “Best Practices for Scientific Computing.” Edited by Jonathan A. Eisen. PLoS Biology 12 (1): e1001745. https://doi.org/10.1371/journal.pbio.1001745.\n\n\nWilson, Greg, Jennifer Bryan, Karen Cranston, Justin Kitzes, Lex Nederbragt, and Tracy K. Teal. 2017. “Good Enough Practices in Scientific Computing.” Edited by Francis Ouellette. PLOS Computational Biology 13 (6): e1005510. https://doi.org/10.1371/journal.pcbi.1005510.",
+    "crumbs": [
+      "Practical Stuff",
+      "Good practices"
+    ]
+  },
+  {
     "objectID": "Practical Stuff/setting up your development environment.html",
     "href": "Practical Stuff/setting up your development environment.html",
     "title": "Setting up your development environment",
@@ -119,13 +119,24 @@
     ]
   },
   {
-    "objectID": "useful links.html",
-    "href": "useful links.html",
-    "title": "Useful Links",
+    "objectID": "contributing.html",
+    "href": "contributing.html",
+    "title": "Contributing to this website",
     "section": "",
-    "text": "Website\nvkola-lab\n\n\nCalendar\nGoogle Calendar\n\n\nGitHub\nvkola-lab\n\n\nSlack\nkolachalamalab\n\n\nYouTube\n@vijayakolachalama\n\n\nHugging Face\nvkola-lab",
+    "text": "This site is built with Quarto. It’s set up to build automatically via GitHub Actions, so you don’t even have to install anything, just edit the markdown, commit, and push.\n\nFor small changes, click the “Edit this page” link on the right of the page you want to change. It will redirect you to a markdown editor on GitHub.\nYou can also clone the repo vkola-lab-docs, edit the relevant markdown files and make a pull request to merge into the main branch. The website will be automatically built and deployed once the pull request is accepted.\n\n\n\n\n\n\n\nThis website is public!\n\n\n\nDo not share any information that you don’t want to be available to the general public.\n\n\n\nCreating a new page\nCreate a new .qmd file and make sure to include the YAML front matter. For example, this page starts with\n---\ntitle: \"Contribute to this website\"\nauthor: \"Matteo Bellitti\"\n---\nMake sure to change the title and author fields. Then write the rest of the document in markdown. See markdown basics on Quarto’s website for a quick introduction.\nThe title field is used to generate the sidebar. Sub-directories will create sections and will be automatically titled based on the directory name (including adding capitalization and substituting spaces for dashes and underscores).\n\n\nQuarto and VS Code\nThere is a VSCode extension that makes editing Quarto documents easier. See also the Quarto documentation about VSCode integration\n\n\nTips and Tricks\nCreating a new file in a subdirectory automatically includes in the sidebar. To control the order in which the pages are displayed in the sidebar, use order in the metadata (see the docs here).\nTo learn more about working with Quarto websites see here.\nTo link to another page, use markdown syntax. For example [this link](Practical Stuff/workstations.qmd) points to the page about the workstations: this link.",
     "crumbs": [
-      "Useful Links"
+      "Contributing to this website"
+    ]
+  },
+  {
+    "objectID": "Data Science/plotting.html",
+    "href": "Data Science/plotting.html",
+    "title": "Making Figures",
+    "section": "",
+    "text": "Matplotlib\nSeaborn -&gt; tall/tidy datasets?\nPlotly/Altair?\nExplain sequential/diverging/qualitative color palettes\nHow to make publication ready figures",
+    "crumbs": [
+      "Data Science",
+      "Making Figures"
     ]
   }
 ]
