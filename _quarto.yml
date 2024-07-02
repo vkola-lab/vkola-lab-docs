@@ -14,7 +14,7 @@ website:
         # text: Home
 
   sidebar:
-    style: "floating"
+    style: "docked"
     search: true
     border: false
     # tools: # mini icons in sidebar
@@ -26,8 +26,6 @@ website:
       - index.qmd
       - contributing.qmd
       - auto: Practical Stuff
-      - auto: datasets
-      - auto: projects
       - auto: Data Science
       - useful links.qmd
 
@@ -38,6 +36,8 @@ format:
       dark: darkly
     css: styles.css
     toc: true
+    published-title: "Last Updated"
+    date: last-modified
 
 execute:
   freeze: auto

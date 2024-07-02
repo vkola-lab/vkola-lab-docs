@@ -1,8 +1,6 @@
 ---
 title: 'Useful Links'
 author: ''
-date: last-modified
-published-title: "Last Updated"
 ---
 
 | | |

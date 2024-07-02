@@ -1,0 +1,19 @@
+---
+title: 'SCC'
+author: 'Matteo Bellitti' 
+---
+
+> "The Boston University [Shared Computing Cluster](https://www.bu.edu/tech/support/research/computing-resources/scc/) (SCC) is a heterogeneous Linux cluster [...] suitable for high-performance computing." 
+
+In practice, you should run your code on SCC if you
+
+1. Need to access one of the large datasets, and/or 
+2. Need a lot of computing power (CPU or GPU)
+
+You should only run on the workstations (or your own device) 
+
+1. For quick prototyping 
+2. If your analysis is light: if you're using tabular data only or doing a regression analysis it's probably fine.
+
+# Learning SCC
+To learn how to use SCC, check out [the introductory guides](https://www.bu.edu/tech/support/research/system-usage/) on BU's website.

@@ -1,34 +1,40 @@
 ---
-title: "Contribute to this website"
+title: "Contributing to this website"
 author: "Matteo Bellitti"
-date: last-modified
-published-title: "Last Updated"
 ---
 
-This site is a Quarto website. 
+This site is built with [Quarto](https://quarto.org/). It's set up to build automatically via GitHub Actions, so you don't even have to install anything, just edit the markdown, commit, and push.
 
-To learn more about working with Quarto websites see [here](https://quarto.org/docs/websites)
+1.  For small changes, click the "Edit this page" link on the right of the page you want to change. It will redirect you to a markdown editor on GitHub.
+2.  You can also clone the repo [`vkola-lab-docs`](https://github.com/vkola-lab/vkola-lab-docs), edit the relevant markdown files and make a pull request to merge into the `main` branch. The website will be automatically built and deployed once the pull request is accepted.
 
-To link to another page, use markdown syntax. For example `[this link](practical/workstations.qmd)` points to the page about the workstations: [this link](practical/workstations.qmd).
-
-To contribute, you have a few options:
-
-1. For small changes, click the "Edit this page" link on the right of the page you want to change. It will redirect you to a markdown editor on GitHub.
-2. You can also clone the repo [`vkola-lab-docs`](https://github.com/vkola-lab/vkola-lab-docs), edit the relevant markdown files and commit to the `main` branch. The website will be automatically built and deployed using GitHub Actions.
+::: callout-caution
+# This website is **public**! 
+Do not share any information that you don't want to be available to the general public.
+:::
 
 # Creating a new page
-Create a new `.qmd` file and make sure to include the YAML front matter. For example, this page starts with 
-```
+Create a new `.qmd` file and make sure to include the YAML front matter. For example, this page starts with
+
+```         
 ---
 title: "Contribute to this website"
 author: "Matteo Bellitti"
-date: last-modified
-published-title: "Last Updated"
 ---
 ```
-Make sure to only change the `title` and `author` fields. Then write the rest of the document in markdown. See [markdown basics](https://quarto.org/docs/authoring/markdown-basics.html) on Quarto's website for a quick introduction.
 
-The `title` field is used to generate the sidebar.  Sub-directories will create sections and will be automatically titled based on the directory name (including adding capitalization and substituting spaces for dashes and underscores). 
+Make sure to change the `title` and `author` fields. Then write the rest of the document in markdown. See [markdown basics](https://quarto.org/docs/authoring/markdown-basics.html) on Quarto's website for a quick introduction.
+
+The `title` field is used to generate the sidebar. Sub-directories will create sections and will be automatically titled based on the directory name (including adding capitalization and substituting spaces for dashes and underscores).
 
 # Quarto and VS Code
+
 There is a VSCode extension that makes editing Quarto documents easier. See also the Quarto [documentation about VSCode integration](https://quarto.org/docs/tools/vscode.html)
+
+# Tips and Tricks
+
+Creating a new file in a subdirectory automatically includes in the sidebar. To control the order in which the pages are displayed in the sidebar, use `order` in the metadata (see the [docs here](https://quarto.org/docs/websites/website-navigation.html#auto-generation)).
+
+To learn more about working with Quarto websites see [here](https://quarto.org/docs/websites).
+
+To link to another page, use markdown syntax. For example `[this link](Practical Stuff/workstations.qmd)` points to the page about the workstations: [this link](Practical%20Stuff/workstations.qmd).

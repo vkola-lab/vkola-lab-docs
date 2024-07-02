@@ -1,8 +1,6 @@
 ---
 title: 'Writing manuscripts'
-author: ''
-date: last-modified
-published-title: "Last Updated"
+author: 'Matteo Bellitti'
 ---
 
 Depends on the journal

@@ -1,0 +1,32 @@
+---
+title: 'Good practices'
+author: 'Matteo Bellitti'
+order: 1
+bibliography: references.bib
+---
+
+Read "Good enough practices in scientific computing" [@wilson2017]. They talk about how to organize projects, why and how you should made your dataframes tidy, and how to make sure your work is readable, reproducible, and thus extensible.
+
+If you expect you'll be writing *a lot* of code, also read "Best practices for Scientific Computing" [@wilson2014], which goes more in depth about software engineering (encapsulation, version control, profiling, debugging, documenting, collaborating).
+
+Taken mostly from those two papers, a checklist of good practices (and how they're implemented in the lab):
+
+1.  Collaboration
+    1.  Use [GitHub](https://github.com/vkola-lab) for everything project-related.
+    2.  Create an overview of your project: write a good \`README.md\`
+    3.  Create a shared to-do list for the project: use GitHub issues.
+    4.  Open issues on GitHub liberally to discuss ideas, problems, and suggestions.
+    5.  Make the license explicit: we recommend the MIT licence.
+2.  Data management
+    1.  Save the raw data: all raw datasets live on SCC. You can make temporary copies on one of the workstations, but be aware of the space limitations.
+    2.  Ensure the raw data is backed up: that's why we're using SCC, they handle all the backups.
+    3.  Record all the steps used to process data.
+3.  Software
+    1.  Check into git (and GitHub) anything that has been written by hand by a human (except data tables).
+    2.  Write explanatory comments at the top of your scripts, with at least one example on how to use it.
+    3.  Keep changes small and commit often.
+    4.  Be ruthless about eliminating duplication.
+    5.  Make dependencies and requirements explicit (e.g. `requirements.txt`)
+4.  Manuscripts
+    1.  Keep a running manuscript as you're working on the project: we use a mix of Overleaf and Word
+    2.  Use a reference manager to automatically handle the bibliography: we recommend Zotero and Mendeley.

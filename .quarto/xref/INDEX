@@ -115,5 +115,23 @@
   },
   "Practical Stuff/writing manuscripts.qmd": {
     "writing manuscripts.html": "5212c641"
+  },
+  "Practical Stuff/bibliography management.qmd": {
+    "bibliography management.html": "888285fa"
+  },
+  "Practical Stuff/general good practices.qmd": {
+    "general good practices.html": "98f7fcbd"
+  },
+  "Datasets/ADNI.qmd": {
+    "ADNI.html": "451d9750"
+  },
+  "Projects/neurogpt.qmd": {
+    "neurogpt.html": "432e62da"
+  },
+  "Projects/neuropath.qmd": {
+    "neuropath.html": "0f13f90d"
+  },
+  "Practical Stuff/SCC.qmd": {
+    "SCC.html": "694fae4e"
   }
 }
