@@ -1,8 +1,6 @@
 ---
 title: 'Using the Workstations'
 author: "Matteo Bellitti"
-date: last-modified
-published-title: "Last Updated"
 ---
 There are three workstations available in the lab: `ayan`, `echo`, and `manu`. To access them, you can either use VSCode or SSH.
 

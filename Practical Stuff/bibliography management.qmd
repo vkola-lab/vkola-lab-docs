@@ -1,8 +1,6 @@
 ---
 title: 'Bibliography Management'
-author: ''
-date: last-modified
-published-title: "Last Updated"
+author: 'Matteo Bellitti'
 ---
 
 Zotero
