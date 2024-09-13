@@ -1,12 +1,19 @@
 [
   {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "Welcome!",
+    "objectID": "projects.html",
+    "href": "projects.html",
+    "title": "Active Projects",
     "section": "",
-    "text": "Welcome!\nThis is the knowledge base for the Kolachalama lab at BU.\nIf you have any suggestion, comment, or would like to see some particular topic covered, please open an issue on GitHub.",
+    "text": "Active feature acquisition: Osman, Ketan, Karim\nLearning on mri with missing sequences: Diala, Divya\nZero-shot learning on EEG configuration (train on some electrode config, infer on a different config): Ketan, Osman - EEG are few, and even if you have them often they are taken in a bunch of different configs\nImproving ML model performance and interpretability in scenarios with incomplete features: Chongua\nPredicting biomarker status for biological AD: Varuna, Sahana, Shreyas, Lingyi, Mike, Chonghua\nFusion of digital pathology and gene expression to predict precancer: Lingyi\nFoundation model for the assessment of ADRD: Sahana, Matteo, Varuna, Shreyas, Lingyi, Meagan, Ketan - take multimodal data, routinely collected (text, MRI, EEG), build a virtual assistant for neurology\nSpeech deidentification preserving cognitive utility: Meysam, Cody, - anonymize speech data while keeping enough audio features to estimate cognitive impairment\nPodGPT: Shuyue, Subh, Ned, Varuna, Meagan, Lindsey, Divya - augment performance of LLM with STEM information, from written, audio, and video sources. We have a product online.\nLLM grounding: Yi Liu\nIdentification of tissue neighborhoods in colorectal cancer: Yichi\nFusion of acoustic and language features for cognitive assessment: Abhi, Serena\nPredicting cognitive status from reaction time: Matteo, Meagan\nSleep and digital brain health: Matteo\nAI augmented neuroradiologist: Shreyas, Krish, Olivia, Mike,\nVision-Language model for predicting biomarkers: Yi Zheng, Divya,\nGuided information retrieval from educational videos: Subh\nEvidence-based medical language model: Shuyue - Integrate medical professional expertise, database knowledge, and patient values/preferences\nEffective drug toxicity on systemic circulation: Aubrey, Yichi\nCorrelation maps of ATN: Meagan, Matteo, Krish\nFusion of whole slide images and gene expression for cancer reoccurrence: Lingyi, Yichi"
+  },
+  {
+    "objectID": "contributing.html",
+    "href": "contributing.html",
+    "title": "Contributing to this website",
+    "section": "",
+    "text": "This site is built with Quarto. It’s set up to build automatically via GitHub Actions, so you don’t even have to install anything, just edit the markdown, commit, and push.\n\nFor small changes, click the “Edit this page” link on the right of the page you want to change. It will redirect you to a markdown editor on GitHub.\nYou can also clone the repo vkola-lab-docs, edit the relevant markdown files and make a pull request to merge into the main branch. The website will be automatically built and deployed once the pull request is accepted.\n\n\n\n\n\n\n\nThis website is public!\n\n\n\nDo not share any information that you don’t want to be available to the general public.\n\n\n\nCreating a new page\nCreate a new .qmd file and make sure to include the YAML front matter. For example, this page starts with\n---\ntitle: \"Contribute to this website\"\nauthor: \"Matteo Bellitti\"\n---\nMake sure to change the title and author fields. Then write the rest of the document in markdown. See markdown basics on Quarto’s website for a quick introduction.\nThe title field is used to generate the sidebar. Sub-directories will create sections and will be automatically titled based on the directory name (including adding capitalization and substituting spaces for dashes and underscores).\n\n\nQuarto and VS Code\nThere is a VSCode extension that makes editing Quarto documents easier. See also the Quarto documentation about VSCode integration\n\n\nTips and Tricks\nCreating a new file in a subdirectory automatically includes in the sidebar. To control the order in which the pages are displayed in the sidebar, use order in the metadata (see the docs here).\nTo learn more about working with Quarto websites see here.\nTo link to another page, use markdown syntax. For example [this link](Practical Stuff/workstations.qmd) points to the page about the workstations: this link.",
     "crumbs": [
-      "Welcome!"
+      "Contributing to this website"
     ]
   },
   {
@@ -32,25 +39,14 @@
     ]
   },
   {
-    "objectID": "Practical Stuff/SCC.html",
-    "href": "Practical Stuff/SCC.html",
-    "title": "SCC",
+    "objectID": "Data Science/plotting.html",
+    "href": "Data Science/plotting.html",
+    "title": "Making Figures",
     "section": "",
-    "text": "“The Boston University Shared Computing Cluster (SCC) is a heterogeneous Linux cluster […] suitable for high-performance computing.”\n\nIn practice, you should run your code on SCC if you\n\nNeed to access one of the large datasets, and/or\nNeed a lot of computing power (CPU or GPU)\n\nYou should only run on the workstations (or your own device)\n\nFor quick prototyping\nIf your analysis is light: if you’re using tabular data only or doing a regression analysis it’s probably fine.\n\n\nLearning SCC\nTo learn how to use SCC, check out the introductory guides on BU’s website.",
+    "text": "Matplotlib\nSeaborn -&gt; tall/tidy datasets?\nPlotly/Altair?\nExplain sequential/diverging/qualitative color palettes\nHow to make publication ready figures",
     "crumbs": [
-      "Practical Stuff",
-      "SCC"
-    ]
-  },
-  {
-    "objectID": "Practical Stuff/data_organization.html",
-    "href": "Practical Stuff/data_organization.html",
-    "title": "Data Organization",
-    "section": "",
-    "text": "Data Organization\nAll datasets are currently being moved to SCC.\n\n\n\n\n\n\nWorkstation storage policy changes\n\n\n\nAs we migrate all datasets to SCC storage, we will implement a storage restriction on the workstations. A final decision has not been made yet, but every lab member will be allowed ~150GB to discourage dataset duplication while allowing a reasonable amount of working space.\n\n\nFor small stuff (e.g. tabular data) you can make temporary copies to the /18TB/Datasets directory on echo, which is also accessible as /18TB_echo/Datasets from ayan and manu.\nAll datasets in the lab should follow the BIDS standard if datatype makes sense (e.g. MRI, PET, but not necessarily tabular data).\n\n\nRead/Write access to datasets on the workstations\nBy default everyone has read access to the datasets, but to prevent accidents only members of the dataset-editors are allowed do write (or delete) from the dataset directory. To check if you are in this group, look at the output of\n$ groups\nIf you have sudo access and need to add a user to the group, use\n$ sudo usermod -aG dataset-editors user",
-    "crumbs": [
-      "Practical Stuff",
-      "Data Organization"
+      "Data Science",
+      "Making Figures"
     ]
   },
   {
@@ -62,38 +58,6 @@
     "crumbs": [
       "Practical Stuff",
       "Using the Workstations"
-    ]
-  },
-  {
-    "objectID": "Practical Stuff/writing manuscripts.html",
-    "href": "Practical Stuff/writing manuscripts.html",
-    "title": "Writing manuscripts",
-    "section": "",
-    "text": "Depends on the journal\nLaTeX + Overleaf\nWord -&gt; templates, bibliography (mendeley)\nAlso explain how to integrate with bibliography management",
-    "crumbs": [
-      "Practical Stuff",
-      "Writing manuscripts"
-    ]
-  },
-  {
-    "objectID": "useful links.html",
-    "href": "useful links.html",
-    "title": "Useful Links",
-    "section": "",
-    "text": "Website\nvkola-lab\n\n\nCalendar\nLab Google Calendar\n\n\nGitHub\nvkola-lab\n\n\nSlack\nkolachalamalab\n\n\nYouTube\n@vijayakolachalama\n\n\nHugging Face\nvkola-lab",
-    "crumbs": [
-      "Useful Links"
-    ]
-  },
-  {
-    "objectID": "Practical Stuff/bibliography management.html",
-    "href": "Practical Stuff/bibliography management.html",
-    "title": "Bibliography Management",
-    "section": "",
-    "text": "Zotero\nMendeley",
-    "crumbs": [
-      "Practical Stuff",
-      "Bibliography Management"
     ]
   },
   {
@@ -119,24 +83,89 @@
     ]
   },
   {
-    "objectID": "contributing.html",
-    "href": "contributing.html",
-    "title": "Contributing to this website",
+    "objectID": "useful links.html",
+    "href": "useful links.html",
+    "title": "Useful Links",
     "section": "",
-    "text": "This site is built with Quarto. It’s set up to build automatically via GitHub Actions, so you don’t even have to install anything, just edit the markdown, commit, and push.\n\nFor small changes, click the “Edit this page” link on the right of the page you want to change. It will redirect you to a markdown editor on GitHub.\nYou can also clone the repo vkola-lab-docs, edit the relevant markdown files and make a pull request to merge into the main branch. The website will be automatically built and deployed once the pull request is accepted.\n\n\n\n\n\n\n\nThis website is public!\n\n\n\nDo not share any information that you don’t want to be available to the general public.\n\n\n\nCreating a new page\nCreate a new .qmd file and make sure to include the YAML front matter. For example, this page starts with\n---\ntitle: \"Contribute to this website\"\nauthor: \"Matteo Bellitti\"\n---\nMake sure to change the title and author fields. Then write the rest of the document in markdown. See markdown basics on Quarto’s website for a quick introduction.\nThe title field is used to generate the sidebar. Sub-directories will create sections and will be automatically titled based on the directory name (including adding capitalization and substituting spaces for dashes and underscores).\n\n\nQuarto and VS Code\nThere is a VSCode extension that makes editing Quarto documents easier. See also the Quarto documentation about VSCode integration\n\n\nTips and Tricks\nCreating a new file in a subdirectory automatically includes in the sidebar. To control the order in which the pages are displayed in the sidebar, use order in the metadata (see the docs here).\nTo learn more about working with Quarto websites see here.\nTo link to another page, use markdown syntax. For example [this link](Practical Stuff/workstations.qmd) points to the page about the workstations: this link.",
+    "text": "Website\nvkola-lab\n\n\nCalendar\nLab Google Calendar\n\n\nGitHub\nvkola-lab\n\n\nSlack\nkolachalamalab\n\n\nYouTube\n@vijayakolachalama\n\n\nHugging Face\nvkola-lab",
     "crumbs": [
-      "Contributing to this website"
+      "Useful Links"
     ]
   },
   {
-    "objectID": "Data Science/plotting.html",
-    "href": "Data Science/plotting.html",
-    "title": "Making Figures",
+    "objectID": "Practical Stuff/writing manuscripts.html",
+    "href": "Practical Stuff/writing manuscripts.html",
+    "title": "Writing manuscripts",
     "section": "",
-    "text": "Matplotlib\nSeaborn -&gt; tall/tidy datasets?\nPlotly/Altair?\nExplain sequential/diverging/qualitative color palettes\nHow to make publication ready figures",
+    "text": "Depends on the journal\nLaTeX + Overleaf\nWord -&gt; templates, bibliography (mendeley)\nAlso explain how to integrate with bibliography management",
     "crumbs": [
-      "Data Science",
-      "Making Figures"
+      "Practical Stuff",
+      "Writing manuscripts"
+    ]
+  },
+  {
+    "objectID": "Practical Stuff/data_organization.html",
+    "href": "Practical Stuff/data_organization.html",
+    "title": "Data Organization",
+    "section": "",
+    "text": "Data Organization\nAll datasets are currently being moved to SCC.\n\n\n\n\n\n\nWorkstation storage policy changes\n\n\n\nAs we migrate all datasets to SCC storage, we will implement a storage restriction on the workstations. A final decision has not been made yet, but every lab member will be allowed ~150GB to discourage dataset duplication while allowing a reasonable amount of working space.\n\n\nFor small stuff (e.g. tabular data) you can make temporary copies to the /18TB/Datasets directory on echo, which is also accessible as /18TB_echo/Datasets from ayan and manu.\nAll datasets in the lab should follow the BIDS standard if datatype makes sense (e.g. MRI, PET, but not necessarily tabular data).\n\n\nRead/Write access to datasets on the workstations\nBy default everyone has read access to the datasets, but to prevent accidents only members of the dataset-editors are allowed do write (or delete) from the dataset directory. To check if you are in this group, look at the output of\n$ groups\nIf you have sudo access and need to add a user to the group, use\n$ sudo usermod -aG dataset-editors user",
+    "crumbs": [
+      "Practical Stuff",
+      "Data Organization"
+    ]
+  },
+  {
+    "objectID": "Practical Stuff/SCC.html",
+    "href": "Practical Stuff/SCC.html",
+    "title": "SCC",
+    "section": "",
+    "text": "“The Boston University Shared Computing Cluster (SCC) is a heterogeneous Linux cluster […] suitable for high-performance computing.”\n\nTo learn how to use SCC, check out the introductory guides on BU’s website.\nIn practice, you should run your code on SCC if you\n\nNeed to access one of the large datasets, and/or\nNeed a lot of computing power (CPU or GPU)\n\nYou should run on the workstations (or your own device)\n\nFor quick prototyping\nIf your analysis is light: if you’re using tabular data only or doing a regression analysis it’s probably fine.\n\n\n\nThe most common ways of connecting to SCC are via SSH or using OnDemand.\n\nSSH: gives you a terminal interface to SCC. Remember that you have to go through scc4.bu.edu to access the restricted data partitions. For more info, see the official BU guide.\nSCC OnDemand: friendly web based interface. Lets you access the data in your home directory and the lab directory, also lets you run interactive apps (Jupuyter, VSCode, MATLAB, etc.) on SCC via browser. For more info, see the official BU guide. Really, give OnDemand a try, it’s awesome.\n\nIf you use VSCode, you can also connect to SCC using the “Connect to Host” command, which is very convenient for editing your code. Remember: do NOT use the login nodes for any heavy computation, your process will be terminated. When you’re ready to run your code, submit it as a batch job, request a shell, or use the interactive apps on SCC OnDemand.\n\n\n\n\n\n\n\n\n\nNote\n\n\n\n\n\nWhen submitting a job make sure to specify the project name. The global project name is vkolagrp",
+    "crumbs": [
+      "Practical Stuff",
+      "SCC"
+    ]
+  },
+  {
+    "objectID": "Practical Stuff/SCC.html#connecting-to-scc",
+    "href": "Practical Stuff/SCC.html#connecting-to-scc",
+    "title": "SCC",
+    "section": "",
+    "text": "The most common ways of connecting to SCC are via SSH or using OnDemand.\n\nSSH: gives you a terminal interface to SCC. Remember that you have to go through scc4.bu.edu to access the restricted data partitions. For more info, see the official BU guide.\nSCC OnDemand: friendly web based interface. Lets you access the data in your home directory and the lab directory, also lets you run interactive apps (Jupuyter, VSCode, MATLAB, etc.) on SCC via browser. For more info, see the official BU guide. Really, give OnDemand a try, it’s awesome.\n\nIf you use VSCode, you can also connect to SCC using the “Connect to Host” command, which is very convenient for editing your code. Remember: do NOT use the login nodes for any heavy computation, your process will be terminated. When you’re ready to run your code, submit it as a batch job, request a shell, or use the interactive apps on SCC OnDemand.",
+    "crumbs": [
+      "Practical Stuff",
+      "SCC"
+    ]
+  },
+  {
+    "objectID": "Practical Stuff/SCC.html#recommended-scc-workflow",
+    "href": "Practical Stuff/SCC.html#recommended-scc-workflow",
+    "title": "SCC",
+    "section": "",
+    "text": "Note\n\n\n\n\n\nWhen submitting a job make sure to specify the project name. The global project name is vkolagrp",
+    "crumbs": [
+      "Practical Stuff",
+      "SCC"
+    ]
+  },
+  {
+    "objectID": "Practical Stuff/bibliography management.html",
+    "href": "Practical Stuff/bibliography management.html",
+    "title": "Bibliography Management",
+    "section": "",
+    "text": "Zotero\nMendeley",
+    "crumbs": [
+      "Practical Stuff",
+      "Bibliography Management"
+    ]
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Welcome!",
+    "section": "",
+    "text": "Welcome!\nThis is the knowledge base for the Kolachalama lab at BU.\nIf you have any suggestion, comment, or would like to see some particular topic covered, please open an issue on GitHub.",
+    "crumbs": [
+      "Welcome!"
     ]
   }
 ]

@@ -2,12 +2,12 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.5.53">
+<meta name="generator" content="quarto-1.5.57">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 <meta name="author" content="Matteo Bellitti">
-<meta name="dcterms.date" content="2024-07-02">
+<meta name="dcterms.date" content="2024-09-13">
 
 <title>SCC – Kolachalama Docs</title>
 <style>
@@ -233,7 +233,12 @@ ul.task-list li input[type="checkbox"] {
     <h2 id="toc-title">On this page</h2>
    
   <ul>
-  <li><a href="#learning-scc" id="toc-learning-scc" class="nav-link active" data-scroll-target="#learning-scc">Learning SCC</a></li>
+  <li><a href="#using-scc" id="toc-using-scc" class="nav-link active" data-scroll-target="#using-scc">Using SCC</a>
+  <ul class="collapse">
+  <li><a href="#connecting-to-scc" id="toc-connecting-to-scc" class="nav-link" data-scroll-target="#connecting-to-scc">Connecting to SCC</a></li>
+  <li><a href="#recommended-scc-workflow" id="toc-recommended-scc-workflow" class="nav-link" data-scroll-target="#recommended-scc-workflow">Recommended SCC Workflow</a></li>
+  <li><a href="#where-is-my-data" id="toc-where-is-my-data" class="nav-link" data-scroll-target="#where-is-my-data">Where is my data?</a></li>
+  </ul></li>
   </ul>
 <div class="toc-actions"><ul><li><a href="https://github.com/vkola-lab/vkola-lab-docs/edit/main/Practical Stuff/SCC.qmd" class="toc-action"><i class="bi bi-github"></i>Edit this page</a></li><li><a href="https://github.com/vkola-lab/vkola-lab-docs/issues/new" class="toc-action"><i class="bi empty"></i>Report an issue</a></li><li><a href="https://github.com/vkola-lab/vkola-lab-docs/blob/main/Practical Stuff/SCC.qmd" class="toc-action"><i class="bi empty"></i>View source</a></li></ul></div></nav>
     </div>
@@ -259,7 +264,7 @@ ul.task-list li input[type="checkbox"] {
     <div>
     <div class="quarto-title-meta-heading">Last Updated</div>
     <div class="quarto-title-meta-contents">
-      <p class="date">July 2, 2024</p>
+      <p class="date">September 13, 2024</p>
     </div>
   </div>
   
@@ -271,24 +276,55 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
+<section id="using-scc" class="level1">
+<h1>Using SCC</h1>
 <blockquote class="blockquote">
 <p>“The Boston University <a href="https://www.bu.edu/tech/support/research/computing-resources/scc/">Shared Computing Cluster</a> (SCC) is a heterogeneous Linux cluster […] suitable for high-performance computing.”</p>
 </blockquote>
+<p>To learn how to use SCC, check out <a href="https://www.bu.edu/tech/support/research/system-usage/">the introductory guides</a> on BU’s website.</p>
 <p>In practice, you should run your code on SCC if you</p>
 <ol type="1">
 <li>Need to access one of the large datasets, and/or</li>
 <li>Need a lot of computing power (CPU or GPU)</li>
 </ol>
-<p>You should only run on the workstations (or your own device)</p>
+<p>You should run on the workstations (or your own device)</p>
 <ol type="1">
 <li>For quick prototyping</li>
 <li>If your analysis is light: if you’re using tabular data only or doing a regression analysis it’s probably fine.</li>
 </ol>
-<section id="learning-scc" class="level1">
-<h1>Learning SCC</h1>
-<p>To learn how to use SCC, check out <a href="https://www.bu.edu/tech/support/research/system-usage/">the introductory guides</a> on BU’s website.</p>
+<section id="connecting-to-scc" class="level2">
+<h2 class="anchored" data-anchor-id="connecting-to-scc">Connecting to SCC</h2>
+<p>The most common ways of connecting to SCC are via SSH or using OnDemand.</p>
+<ol type="1">
+<li><p>SSH: gives you a terminal interface to SCC. Remember that you have to go through <code>scc4.bu.edu</code> to access the <code>restricted</code> data partitions. For more info, see the <a href="https://www.bu.edu/tech/support/research/system-usage/connect-scc/ssh/">official BU guide</a>.</p></li>
+<li><p><a href="https://scc-ondemand.bu.edu/">SCC OnDemand</a>: friendly web based interface. Lets you access the data in your home directory and the lab directory, also lets you run interactive apps (Jupuyter, VSCode, MATLAB, etc.) on SCC via browser. For more info, see the <a href="https://www.bu.edu/tech/support/research/system-usage/connect-scc/scc-ondemand/">official BU guide</a>. Really, give OnDemand a try, it’s awesome.</p></li>
+</ol>
+<p>If you use VSCode, you can also connect to SCC using the “Connect to Host” command, which is very convenient for editing your code. Remember: do NOT use the login nodes for any heavy computation, your process will be terminated. When you’re ready to run your code, submit it as a <a href="https://www.bu.edu/tech/support/research/system-usage/running-jobs/submitting-jobs/">batch job</a>, request <a href="https://www.bu.edu/tech/support/research/system-usage/running-jobs/interactive-jobs/">a shell</a>, or use the interactive apps on <a href="https://scc-ondemand.bu.edu/">SCC OnDemand</a>.</p>
+</section>
+<section id="recommended-scc-workflow" class="level2">
+<h2 class="anchored" data-anchor-id="recommended-scc-workflow">Recommended SCC Workflow</h2>
+<div class="callout callout-style-default callout-note callout-titled">
+<div class="callout-header d-flex align-content-center" data-bs-toggle="collapse" data-bs-target=".callout-1-contents" aria-controls="callout-1" aria-expanded="true" aria-label="Toggle callout">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Note
+</div>
+<div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
+</div>
+<div id="callout-1" class="callout-1-contents callout-collapse collapse show">
+<div class="callout-body-container callout-body">
+<p>When submitting a job make sure to specify the project name. The global project name is <code>vkolagrp</code></p>
+</div>
+</div>
+</div>
+</section>
+<section id="where-is-my-data" class="level2">
+<h2 class="anchored" data-anchor-id="where-is-my-data">Where is my data?</h2>
 
 
+</section>
 </section>
 
 </main> <!-- /main -->
