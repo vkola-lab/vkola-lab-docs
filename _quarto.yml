@@ -27,6 +27,7 @@ website:
       - contributing.qmd
       - auto: Practical Stuff
       - auto: Data Science
+      - projects.qmd
       - useful links.qmd
 
 format:
