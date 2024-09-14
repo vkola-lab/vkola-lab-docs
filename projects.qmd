@@ -5,28 +5,27 @@ author: "Matteo Bellitti"
 
 Active feature acquisition: Osman, Ketan, Karim
 
-Learning on mri with missing sequences: Diala, Divya
+Learning on MRIs with missing sequences: Diala, Divya
 
 Zero-shot learning on EEG configuration (train on some electrode config, infer on a different config): Ketan, Osman
     - EEG are few, and even if you have them often they are taken in a bunch of different configs
 
 Improving ML model performance and interpretability in scenarios with incomplete features: Chongua
 
-Predicting biomarker status for biological AD: Varuna, Sahana, Shreyas, Lingyi, Mike, Chonghua
+Predicting biomarker status for biological AD: Varuna, Sahana, Shreyas, Lingyi, Mike
 
 Fusion of digital pathology and gene expression to predict precancer: Lingyi
 
 Foundation model for the assessment of ADRD: Sahana, Matteo, Varuna, Shreyas, Lingyi, Meagan, Ketan
     - take multimodal data, routinely collected (text, MRI, EEG), build a virtual assistant for neurology
 
-Speech deidentification preserving cognitive utility: Meysam, Cody, 
+Speech deidentification while preserving cognitive utility: Meysam, Cody 
     - anonymize speech data while keeping enough audio features to estimate cognitive impairment
-
 
 PodGPT: Shuyue, Subh, Ned, Varuna, Meagan, Lindsey, Divya
     - augment performance of LLM with STEM information, from written, audio, and video sources. We have a product online.
 
-LLM grounding: Yi Liu
+LLM grounding: Yi Liu, Krish
 
 Identification of tissue neighborhoods in colorectal cancer: Yichi
 
@@ -36,16 +35,16 @@ Predicting cognitive status from reaction time: Matteo, Meagan
 
 Sleep and digital brain health: Matteo
 
-AI augmented neuroradiologist: Shreyas, Krish, Olivia, Mike, 
+AI augmented neuroradiologist: Shreyas, Krish, Olivia, Mike
 
-Vision-Language model for predicting biomarkers: Yi Zheng, Divya, 
+Vision-language model for predicting biomarkers: Yi Zheng, Divya
 
 Guided information retrieval from educational videos: Subh
 
 Evidence-based medical language model: Shuyue
     - Integrate medical professional expertise, database knowledge, and patient values/preferences
 
-Effective drug toxicity on systemic circulation: Aubrey, Yichi
+Effect of drug toxicity on systemic circulation: Aubrey, Yichi
 
 Correlation maps of ATN: Meagan, Matteo, Krish
 
