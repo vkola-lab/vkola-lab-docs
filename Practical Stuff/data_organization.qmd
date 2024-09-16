@@ -3,14 +3,12 @@ title: 'Data Organization'
 author: 'Matteo Bellitti' 
 ---
 # Data Organization
-All datasets are currently being moved to SCC. 
+All neuro-related datasets are now on SCC.
 
 ::: {.callout-important}
 # Workstation storage policy changes 
 As we migrate all datasets to SCC storage, we will implement a storage restriction on the workstations. A final decision has not been made yet, but every lab member will be allowed ~150GB to discourage dataset duplication while allowing a reasonable amount of working space.
 :::
-
-For small stuff (e.g. tabular data) you can make temporary copies to the `/18TB/Datasets` directory on `echo`, which is also accessible as `/18TB_echo/Datasets` from `ayan` and `manu`. 
 
 All datasets in the lab should follow the [BIDS standard](https://bids-specification.readthedocs.io/en/stable/index.html) if datatype makes sense (e.g. MRI, PET, but not necessarily tabular data). 
 

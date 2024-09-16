@@ -22,13 +22,7 @@ website:
         # href: https://github.com/vkola-lab
       # - icon: youtube
         # href: https://www.youtube.com/@vijayakolachalama
-    contents: 
-      - index.qmd
-      - contributing.qmd
-      - auto: Practical Stuff
-      - auto: Data Science
-      - projects.qmd
-      - useful links.qmd
+    contents: auto
 
 format:
   html:
