@@ -6,25 +6,25 @@ author: "Matteo Bellitti"
 This is a list of projects in the lab, including who is working on them. If you are interested in joining a particular project, contact any member of the corresponding team.
 
 - Active feature acquisition: Osman, Ketan, Karim
-- Learning on mri with missing sequences: Diala, Divya
+- Learning on MRI with missing sequences: Diala, Divya
 - Zero-shot learning on EEG configuration (train on some electrode config, infer on a different config): Ketan, Osman
     - EEG are few, and even if you have them often they are taken in a bunch of different configs
 - Improving ML model performance and interpretability in scenarios with incomplete features: Chongua
 - Predicting biomarker status for biological AD: Varuna, Sahana, Shreyas, Lingyi, Mike, Chonghua
 - Fusion of digital pathology and gene expression to predict precancer: Lingyi
 - Foundation model for the assessment of ADRD: Sahana, Matteo, Varuna, Shreyas, Lingyi, Meagan, Ketan
-    - take multimodal data, routinely collected (text, MRI, EEG), build a virtual assistant for neurology
+    - take multimodal data, routinely collected (text, MRI, EEG)
 - Speech deidentification preserving cognitive utility: Meysam, Cody, 
     - anonymize speech data while keeping enough audio features to estimate cognitive impairment
-- PodGPT: Shuyue, Subh, Ned, Varuna, Meagan, Lindsey, Divya
-    - augment performance of LLM with STEM information, from written, audio, and video sources. We have a product online.
-- LLM grounding: Yi Liu
+- PodGPT: Shuyue, Subh, Ned, Varuna, Meagan, Lindsey, Divya, Shruti, Dithmi
+    - augment performance of LLM with STEM information, from written, audio, and video sources. We have a demo online.
+- LLM grounding: Yi Liu, Krish Shah
 - Identification of tissue neighborhoods in colorectal cancer: Yichi
-- Fusion of acoustic and language features for cognitive assessment: Abhi, Serena
-- Predicting cognitive status from reaction time: Matteo, Meagan
+- Fusion of acoustic and language features for cognitive assessment: Abhi, Serena, Cody
+- Practice effects and digital cognitive assessments: Matteo, Meagan
 - Sleep and digital brain health: Matteo
-- AI augmented neuroradiologist: Shreyas, Krish, Olivia, Mike, 
-- Vision-Language model for predicting biomarkers: Yi Zheng, Divya, 
+- AI augmented neuroradiologist: Shreyas, Krish, Olivia, Mike
+- Vision-Language model for nuclei segmentation: Yi Zheng, Divya
 - Guided information retrieval from educational videos: Subh
 - Evidence-based medical language model: Shuyue
     - Integrate medical professional expertise, database knowledge, and patient values/preferences
