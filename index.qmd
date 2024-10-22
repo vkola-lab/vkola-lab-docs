@@ -1,4 +1,4 @@
 # Welcome!
-This is the knowledge base for the [Kolachalama lab](https://vkola-lab.github.io/) at BU.
+This is the knowledge base for the [Kolachalama lab](https://vkola-lab.github.io/).
 
 If you have any suggestion, comment, or would like to see some particular topic covered, please [open an issue](https://github.com/vkola-lab/vkola-lab-docs/issues) on GitHub.
