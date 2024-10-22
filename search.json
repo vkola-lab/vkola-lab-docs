@@ -88,20 +88,67 @@
     ]
   },
   {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "Welcome!",
+    "objectID": "Practical Stuff/quals-presentation.html",
+    "href": "Practical Stuff/quals-presentation.html",
+    "title": "Preparing for your PhD qualifying exam",
     "section": "",
-    "text": "Welcome!\nThis is the knowledge base for the Kolachalama lab.\nIf you have any suggestion, comment, or would like to see some particular topic covered, please open an issue on GitHub."
+    "text": "As you start to prepare for your PhD qualifying examination, regardless of your PhD program at BU, you will be expected to present a brief summary of the major aims of your dissertation at a Kolachalama lab meeting.\nThe goal in doing this is to effectively craft a strong abstract to convey the science and communicate your work to the lab, NOT to present your entire qualifying exam slide deck. Think something in the vein of “Three Minute Thesis,” in which participants are expected to “effectively convey [their] research in just three minutes using language that is accessible to a non-specialist audience.”",
+    "crumbs": [
+      "Practical Stuff",
+      "Preparing for your PhD qualifying exam"
+    ]
   },
   {
-    "objectID": "contributing.html",
-    "href": "contributing.html",
-    "title": "Contributing to this website",
-    "section": "",
-    "text": "This site is built with Quarto. It’s set up to build automatically via GitHub Actions, so you don’t even have to install anything, just edit the markdown, commit, and push.\n\nFor small changes, click the “Edit this page” link on the right of the page you want to change. It will redirect you to a markdown editor on GitHub.\nYou can also clone the repo vkola-lab-docs, edit the relevant markdown files and make a pull request to merge into the main branch. The website will be automatically built and deployed once the pull request is accepted.\n\n\n\n\n\n\n\nThis website is public!\n\n\n\nDo not share any information that you don’t want to be available to the general public.\n\n\n\nCreating a new page\nCreate a new .qmd file and make sure to include the YAML front matter. For example, this page starts with\n---\ntitle: \"Contribute to this website\"\nauthor: \"Matteo Bellitti\"\n---\nMake sure to change the title and author fields. Then write the rest of the document in markdown. See markdown basics on Quarto’s website for a quick introduction.\nThe title field is used to generate the sidebar. Sub-directories will create sections and will be automatically titled based on the directory name (including adding capitalization and substituting spaces for dashes and underscores).\n\n\nQuarto and VS Code\nThere is a VSCode extension that makes editing Quarto documents easier. See also the Quarto documentation about VSCode integration\n\n\nTips and Tricks\nCreating a new file in a subdirectory automatically includes in the sidebar. To control the order in which the pages are displayed in the sidebar, use order in the metadata (see the docs here).\nTo learn more about working with Quarto websites see here.\nTo link to another page, use markdown syntax. For example [this link](Practical Stuff/workstations.qmd) points to the page about the workstations: this link.",
+    "objectID": "Practical Stuff/quals-presentation.html#lab-meeting-presentation",
+    "href": "Practical Stuff/quals-presentation.html#lab-meeting-presentation",
+    "title": "Preparing for your PhD qualifying exam",
+    "section": "Lab meeting presentation",
+    "text": "Lab meeting presentation\nYour lab presentation may take one of two general forms, your choice:\n\nA text-based 4-5 slide presentation\n\nA few supplemental figures OK\n\nA 30-60 second elevator pitch\n\nNo slides\n\n\nYour presentation should include the following major points:\n\nDissertation title\n\nSome thought should be put into identifying a title that summarizes the unifying theme of your project(s) and the problem you are trying to solve.\n\nThe problem\n\nBRIEF introduction to the importance of your work\nWhat precisely is the problem that you are trying to solve?\n\nBackground / previous work\n\nA brief literature review of what has been done before\n\nScientific/clinical = Technical/methodology\n\n\nYour contributions / innovations\n\nScientific/clinical\nTechnical/methodology\n\nFuture work\n\nCould also be a timeline\n\n\nRegardless of the medium, please practice your presentation beforehand! Especially in front of fellow members of the lab 🙂 Your lab mates will be able to give you critical feedback with added benefit of (hopefully) understanding your project context.\nThe sooner you can complete this presentation and start getting feedback from peers, the better. Do not finish your presentation the night before without the chance to get proper feedback!!\nSome example slides from Lingyi, a Data Science PhD student (sign in with your BU email). Text only Slides with supplemental figures",
     "crumbs": [
-      "Contributing to this website"
+      "Practical Stuff",
+      "Preparing for your PhD qualifying exam"
+    ]
+  },
+  {
+    "objectID": "Practical Stuff/quals-presentation.html#other-notes",
+    "href": "Practical Stuff/quals-presentation.html#other-notes",
+    "title": "Preparing for your PhD qualifying exam",
+    "section": "Other notes",
+    "text": "Other notes\n\nIf you can write the abstract first, then you can write the paper. The same logic applies here!\nIf you would like to reserve another lab meeting at a later time to present your entire slide deck to the lab, please chat with Vijay.",
+    "crumbs": [
+      "Practical Stuff",
+      "Preparing for your PhD qualifying exam"
+    ]
+  },
+  {
+    "objectID": "projects.html",
+    "href": "projects.html",
+    "title": "Active Projects",
+    "section": "",
+    "text": "This is a list of projects in the lab, including who is working on them. If you are interested in joining a particular project, contact any member of the corresponding team.\n\nActive feature acquisition: Osman, Ketan, Karim\nLearning on MRI with missing sequences: Diala, Divya\nZero-shot learning on EEG configuration (train on some electrode config, infer on a different config): Ketan, Osman\n\nEEG are few, and even if you have them often they are taken in a bunch of different configs\n\nImproving ML model performance and interpretability in scenarios with incomplete features: Chongua\nPredicting biomarker status for biological AD: Varuna, Sahana, Shreyas, Lingyi, Mike, Chonghua\nFusion of digital pathology and gene expression to predict precancer: Lingyi\nFoundation model for the assessment of ADRD: Sahana, Matteo, Varuna, Shreyas, Lingyi, Meagan, Ketan\n\ntake multimodal data, routinely collected (text, MRI, EEG)\n\nSpeech deidentification preserving cognitive utility: Meysam, Cody,\n\nanonymize speech data while keeping enough audio features to estimate cognitive impairment\n\nPodGPT: Shuyue, Subh, Ned, Varuna, Meagan, Lindsey, Divya, Shruti, Dithmi\n\naugment performance of LLM with STEM information, from written, audio, and video sources. We have a demo online.\n\nLLM grounding: Yi Liu, Krish Shah\nIdentification of tissue neighborhoods in colorectal cancer: Yichi\nFusion of acoustic and language features for cognitive assessment: Abhi, Serena, Cody\nPractice effects and digital cognitive assessments: Matteo, Meagan\nSleep and digital brain health: Matteo\nAI augmented neuroradiologist: Shreyas, Krish, Olivia, Mike\nVision-Language model for nuclei segmentation: Yi Zheng, Divya\nGuided information retrieval from educational videos: Subh\nEvidence-based medical language model: Shuyue\n\nIntegrate medical professional expertise, database knowledge, and patient values/preferences\n\nEffective drug toxicity on systemic circulation: Aubrey, Yichi\nCorrelation maps of ATN: Meagan, Matteo, Krish\nFusion of whole slide images and gene expression for cancer reoccurrence: Lingyi, Yichi",
+    "crumbs": [
+      "Active Projects"
+    ]
+  },
+  {
+    "objectID": "Data Science/plotting.html",
+    "href": "Data Science/plotting.html",
+    "title": "Making Figures",
+    "section": "",
+    "text": "Matplotlib\nSeaborn -&gt; tall/tidy datasets?\nPlotly/Altair?\nExplain sequential/diverging/qualitative color palettes\nHow to make publication ready figures",
+    "crumbs": [
+      "Data Science",
+      "Making Figures"
+    ]
+  },
+  {
+    "objectID": "useful links.html",
+    "href": "useful links.html",
+    "title": "Useful Links",
+    "section": "",
+    "text": "Website\nvkola-lab\n\n\nCalendar\nLab Google Calendar\n\n\nGitHub\nvkola-lab\n\n\nSlack\nkolachalamalab\n\n\nYouTube\n@vijayakolachalama\n\n\nHugging Face\nvkola-lab",
+    "crumbs": [
+      "Useful Links"
     ]
   },
   {
@@ -127,35 +174,21 @@
     ]
   },
   {
-    "objectID": "useful links.html",
-    "href": "useful links.html",
-    "title": "Useful Links",
+    "objectID": "contributing.html",
+    "href": "contributing.html",
+    "title": "Contributing to this website",
     "section": "",
-    "text": "Website\nvkola-lab\n\n\nCalendar\nLab Google Calendar\n\n\nGitHub\nvkola-lab\n\n\nSlack\nkolachalamalab\n\n\nYouTube\n@vijayakolachalama\n\n\nHugging Face\nvkola-lab",
+    "text": "This site is built with Quarto. It’s set up to build automatically via GitHub Actions, so you don’t even have to install anything, just edit the markdown, commit, and push.\n\nFor small changes, click the “Edit this page” link on the right of the page you want to change. It will redirect you to a markdown editor on GitHub.\nYou can also clone the repo vkola-lab-docs, edit the relevant markdown files and make a pull request to merge into the main branch. The website will be automatically built and deployed once the pull request is accepted.\n\n\n\n\n\n\n\nThis website is public!\n\n\n\nDo not share any information that you don’t want to be available to the general public.\n\n\n\nCreating a new page\nCreate a new .qmd file and make sure to include the YAML front matter. For example, this page starts with\n---\ntitle: \"Contribute to this website\"\nauthor: \"Matteo Bellitti\"\n---\nMake sure to change the title and author fields. Then write the rest of the document in markdown. See markdown basics on Quarto’s website for a quick introduction.\nThe title field is used to generate the sidebar. Sub-directories will create sections and will be automatically titled based on the directory name (including adding capitalization and substituting spaces for dashes and underscores).\n\n\nQuarto and VS Code\nThere is a VSCode extension that makes editing Quarto documents easier. See also the Quarto documentation about VSCode integration\n\n\nTips and Tricks\nCreating a new file in a subdirectory automatically includes in the sidebar. To control the order in which the pages are displayed in the sidebar, use order in the metadata (see the docs here).\nTo learn more about working with Quarto websites see here.\nTo link to another page, use markdown syntax. For example [this link](Practical Stuff/workstations.qmd) points to the page about the workstations: this link.",
     "crumbs": [
-      "Useful Links"
+      "Contributing to this website"
     ]
   },
   {
-    "objectID": "Data Science/plotting.html",
-    "href": "Data Science/plotting.html",
-    "title": "Making Figures",
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Welcome!",
     "section": "",
-    "text": "Matplotlib\nSeaborn -&gt; tall/tidy datasets?\nPlotly/Altair?\nExplain sequential/diverging/qualitative color palettes\nHow to make publication ready figures",
-    "crumbs": [
-      "Data Science",
-      "Making Figures"
-    ]
-  },
-  {
-    "objectID": "projects.html",
-    "href": "projects.html",
-    "title": "Active Projects",
-    "section": "",
-    "text": "This is a list of projects in the lab, including who is working on them. If you are interested in joining a particular project, contact any member of the corresponding team.\n\nActive feature acquisition: Osman, Ketan, Karim\nLearning on MRI with missing sequences: Diala, Divya\nZero-shot learning on EEG configuration (train on some electrode config, infer on a different config): Ketan, Osman\n\nEEG are few, and even if you have them often they are taken in a bunch of different configs\n\nImproving ML model performance and interpretability in scenarios with incomplete features: Chongua\nPredicting biomarker status for biological AD: Varuna, Sahana, Shreyas, Lingyi, Mike, Chonghua\nFusion of digital pathology and gene expression to predict precancer: Lingyi\nFoundation model for the assessment of ADRD: Sahana, Matteo, Varuna, Shreyas, Lingyi, Meagan, Ketan\n\ntake multimodal data, routinely collected (text, MRI, EEG)\n\nSpeech deidentification preserving cognitive utility: Meysam, Cody,\n\nanonymize speech data while keeping enough audio features to estimate cognitive impairment\n\nPodGPT: Shuyue, Subh, Ned, Varuna, Meagan, Lindsey, Divya, Shruti, Dithmi\n\naugment performance of LLM with STEM information, from written, audio, and video sources. We have a demo online.\n\nLLM grounding: Yi Liu, Krish Shah\nIdentification of tissue neighborhoods in colorectal cancer: Yichi\nFusion of acoustic and language features for cognitive assessment: Abhi, Serena, Cody\nPractice effects and digital cognitive assessments: Matteo, Meagan\nSleep and digital brain health: Matteo\nAI augmented neuroradiologist: Shreyas, Krish, Olivia, Mike\nVision-Language model for nuclei segmentation: Yi Zheng, Divya\nGuided information retrieval from educational videos: Subh\nEvidence-based medical language model: Shuyue\n\nIntegrate medical professional expertise, database knowledge, and patient values/preferences\n\nEffective drug toxicity on systemic circulation: Aubrey, Yichi\nCorrelation maps of ATN: Meagan, Matteo, Krish\nFusion of whole slide images and gene expression for cancer reoccurrence: Lingyi, Yichi",
-    "crumbs": [
-      "Active Projects"
-    ]
+    "text": "Welcome!\nThis is the knowledge base for the Kolachalama lab.\nIf you have any suggestion, comment, or would like to see some particular topic covered, please open an issue on GitHub."
   },
   {
     "objectID": "Practical Stuff/SCC.html",
