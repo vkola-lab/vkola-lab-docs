@@ -1,0 +1,48 @@
+---
+title: 'Preparing for your PhD qualifying exam'
+author: 'Aubrey Odom' 
+---
+
+As you start to prepare for your PhD qualifying examination, regardless of your PhD program at BU, you will be expected to present a brief summary of the major aims of your dissertation at a Kolachalama lab meeting. 
+
+The goal in doing this is to effectively craft a strong **abstract** to convey the science and communicate your work to the lab, **NOT** to present your entire qualifying exam slide deck. Think something in the vein of “[Three Minute Thesis](https://www.bu.edu/pdpa/for-doctoral-students/phd-on-tap/three-minute-thesis-competition/),” in which participants are expected to “effectively convey [their] research in just three minutes using language that is accessible to a non-specialist audience.”
+
+## Lab meeting presentation
+
+Your lab presentation may take one of two general forms, your choice:
+
+1. A **text-based** 4-5 slide presentation
+    a. A few supplemental figures OK
+2. A 30-60 second elevator pitch
+    a. No slides
+
+Your presentation should include the following major points:
+
+1. Dissertation title
+    a. Some thought should be put into identifying a title that summarizes the unifying theme of your project(s) and the problem you are trying to solve.
+2. The problem
+    a. BRIEF introduction to the importance of your work
+    b. What precisely is the problem that you are trying to solve?
+3. Background / previous work
+    a. A brief literature review of what has been done before
+        - Scientific/clinical
+        = Technical/methodology
+4. Your contributions / innovations
+    a. Scientific/clinical
+    b. Technical/methodology
+5. Future work
+    a. Could also be a timeline
+
+Regardless of the medium, please **practice** your presentation beforehand! Especially in front of fellow members of the lab 🙂 Your lab mates will be able to give you critical feedback with added benefit of (hopefully) understanding your project context.
+
+The sooner you can complete this presentation and start getting feedback from peers, the better. Do not finish your presentation the night before without the chance to get proper feedback!!
+
+Some example slides from Lingyi, a Data Science PhD student (sign in with your BU email).
+[Text only](https://drive.google.com/file/d/1oxzww423fO6oer-iv1ez8arj68KInyf_/view?usp=sharing)
+[Slides with supplemental figures](https://docs.google.com/presentation/d/1jTAgBjsUSSwVYofMlvkW8M-juRveFkSj/edit?usp=sharing&ouid=102084417936970050815&rtpof=true&sd=true)
+
+
+## Other notes
+
+- If you can write the abstract first, then you can write the paper. The same logic applies here!
+- If you would like to reserve another lab meeting at a later time to present your entire slide deck to the lab, please chat with Vijay.
