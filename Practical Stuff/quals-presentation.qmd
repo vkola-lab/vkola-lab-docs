@@ -12,7 +12,7 @@ The goal in doing this is to effectively craft a strong **abstract** to convey t
 Your lab presentation may take one of two general forms, your choice:
 
 1. A **text-based** 4-5 slide presentation
-    a. A few supplemental figures OK
+    a. A few supplemental figures are OK
 2. A 30-60 second elevator pitch
     a. No slides
 
@@ -26,14 +26,14 @@ Your presentation should include the following major points:
 3. Background / previous work
     a. A brief literature review of what has been done before
         - Scientific/clinical
-        = Technical/methodology
+        - Technical/methodology
 4. Your contributions / innovations
     a. Scientific/clinical
     b. Technical/methodology
 5. Future work
     a. Could also be a timeline
 
-Regardless of the medium, please **practice** your presentation beforehand! Especially in front of fellow members of the lab 🙂 Your lab mates will be able to give you critical feedback with added benefit of (hopefully) understanding your project context.
+Regardless of the medium, please **practice** your presentation beforehand! Especially in front of fellow members of the lab 🙂. Your lab mates will be able to give you critical feedback with added benefit of (hopefully) understanding your project context.
 
 The sooner you can complete this presentation and start getting feedback from peers, the better. Do not finish your presentation the night before without the chance to get proper feedback!!
 
@@ -43,6 +43,5 @@ Some example slides from Lingyi, a Data Science PhD student (sign in with your B
 
 
 ## Other notes
-
 - If you can write the abstract first, then you can write the paper. The same logic applies here!
-- If you would like to reserve another lab meeting at a later time to present your entire slide deck to the lab, please chat with Vijay.
+- If you would like to reserve another lab meeting at a later time to present your entire slide deck to the lab, please chat with at least 3 lab members.
