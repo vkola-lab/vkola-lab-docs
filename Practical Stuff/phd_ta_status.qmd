@@ -5,7 +5,7 @@ author: ''
 
 | PhD student  | Spring 2025            | Summer 2025 | Fall 2025 |
 |--------------|------------------------|-------------|-----------|
-| Chonghua     | Yes; active searching  | No          | No        |
+| Chonghua     | Yes; Searching         | No          | No        |
 | Diala        |                        |             |           |
 | Varuna
 | Sahana
@@ -15,4 +15,5 @@ author: ''
 | Shuyue
 | Subh
 | Yichi
-| Yi Liu
+| Divya
+| Yi
