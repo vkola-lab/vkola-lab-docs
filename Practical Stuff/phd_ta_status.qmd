@@ -5,6 +5,14 @@ author: ''
 
 | PhD student  | Spring 2025            | Summer 2025 | Fall 2025 |
 |--------------|------------------------|-------------|-----------|
-| Chonghua Xue | Yes; active searching  | No          | No        |
-|              |                        |             |           |
-|              |                        |             |           |
+| Chonghua     | Yes; active searching  | No          | No        |
+| Diala        |                        |             |           |
+| Varuna
+| Sahana
+| Osman
+| Meagan
+| Lingyi
+| Shuyue
+| Subh
+| Yichi
+| Yi Liu
