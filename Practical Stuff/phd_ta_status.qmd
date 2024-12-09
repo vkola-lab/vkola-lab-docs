@@ -15,4 +15,4 @@ author: ''
 | Shuyue       | No                     |Yes; Searching| No       |
 | Subh         | No                     |No           |Yes; Searching           |
 | Yichi        |                        |             |           |
-| Divya        |                        |             |           |
+| Divya        | No                     |No           |Yes; Searching           |
