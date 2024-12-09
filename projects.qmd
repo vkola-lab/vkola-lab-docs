@@ -10,7 +10,7 @@ This is a list of projects in the lab, including who is working on them. If you 
 - Zero-shot learning on EEG configuration (train on some electrode config, infer on a different config): Ketan, Osman
     - EEG are few, and even if you have them often they are taken in a bunch of different configs
 - Improving ML model performance and interpretability in scenarios with incomplete features: Chongua
-- Predicting biomarker status for biological AD: Varuna, Sahana, Shreyas, Lingyi, Mike, Chonghua
+- Predicting biomarker status for biological AD: Varuna, Sahana, Shreyas, Lingyi, Mike
 - Fusion of digital pathology and gene expression to predict precancer: Lingyi
 - Foundation model for the assessment of ADRD: Sahana, Matteo, Varuna, Shreyas, Lingyi, Meagan, Ketan
     - take multimodal data, routinely collected (text, MRI, EEG)
