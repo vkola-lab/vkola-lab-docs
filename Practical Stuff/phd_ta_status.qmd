@@ -7,13 +7,12 @@ author: ''
 |--------------|------------------------|-------------|-----------|
 | Chonghua     | Yes; Searching         | No          | No        |
 | Diala        |                        |             |           |
-| Varuna
-| Sahana
-| Osman
-| Meagan
-| Lingyi
-| Shuyue
-| Subh
-| Yichi
-| Divya
-| Yi
+| Varuna       |                        |             |           |
+| Sahana       |                        |             |           |
+| Osman        |                        |             |           |
+| Meagan       |                        |             |           |
+| Lingyi       |                        |             |           |
+| Shuyue       | No                     |Yes; Searching| No       |
+| Subh         |                        |             |           |
+| Yichi        |                        |             |           |
+| Divya        |                        |             |           |
