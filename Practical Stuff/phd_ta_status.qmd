@@ -13,6 +13,6 @@ author: ''
 | Meagan       |                        |             |           |
 | Lingyi       |                        |             |           |
 | Shuyue       | No                     |Yes; Searching| No       |
-| Subh         |                        |             |           |
+| Subh         | No                     |No           |Yes; Searching           |
 | Yichi        |                        |             |           |
 | Divya        |                        |             |           |
