@@ -14,5 +14,5 @@ author: ''
 | Lingyi       | Yes                    | No          | No        |
 | Shuyue       | No                     |Yes; Searching| No       |
 | Subh         | No                     |No           |Yes; Searching           |
-| Yichi        |                        |             |           |
+| Yichi        | No                     |Yes; Waiting for response           |No           |
 | Divya        | No                     |No           |Yes; Searching           |
