@@ -10,7 +10,7 @@ author: ''
 | Varuna       |                        |             |           |
 | Sahana       |                        |             |           |
 | Osman        |                        |             |           |
-| Meagan       |                        |             |           |
+| Meagan       | No                     |No           |No         |
 | Lingyi       | Yes                    | No          | No        |
 | Shuyue       | No                     |Yes; Searching| No       |
 | Subh         | No                     |No           |Yes; Searching           |
