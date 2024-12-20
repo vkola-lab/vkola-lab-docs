@@ -7,7 +7,7 @@ author: ''
 |--------------|------------------------|-------------|-----------|
 | Chonghua     | Yes; Searching         | No          | No        |
 | Diala        |                        |             |           |
-| Varuna       |                        |             |           |
+| Varuna       | No                     | Searching   | Searching |
 | Sahana       |                        |             |           |
 | Osman        |                        |             |           |
 | Meagan       | No                     |No           |No         |
