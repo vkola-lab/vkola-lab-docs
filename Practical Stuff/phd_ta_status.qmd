@@ -8,7 +8,7 @@ author: ''
 | Chonghua     | Yes; Searching         | No          | No        |
 | Diala        | Yes                    | No          | No        |
 | Varuna       | No                     | Searching   | Searching |
-| Sahana       |                        |             |           |
+| Sahana       | No                     | No          | Yes; Searching |
 | Osman        |                        |             |           |
 | Meagan       | No                     |No           |No         |
 | Lingyi       | Yes                    | No          | No        |
