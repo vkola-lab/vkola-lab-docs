@@ -1,5 +1,121 @@
 [
   {
+    "objectID": "Data Science/plotting.html",
+    "href": "Data Science/plotting.html",
+    "title": "Making Figures",
+    "section": "",
+    "text": "Matplotlib\nSeaborn -&gt; tall/tidy datasets?\nPlotly/Altair?\nExplain sequential/diverging/qualitative color palettes\nHow to make publication ready figures",
+    "crumbs": [
+      "Data Science",
+      "Making Figures"
+    ]
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Welcome!",
+    "section": "",
+    "text": "Welcome!\nThis is the knowledge base for the Kolachalama lab.\nIf you have any suggestions, comments, or would like to see a particular topic covered, please open an issue on GitHub."
+  },
+  {
+    "objectID": "contributing.html",
+    "href": "contributing.html",
+    "title": "Contributing to this website",
+    "section": "",
+    "text": "This site is built with Quarto. It’s set up to build automatically via GitHub Actions, so you don’t even have to install anything, just edit the markdown, commit, and push.\n\nFor small changes, click the “Edit this page” link on the right of the page you want to change. It will redirect you to a markdown editor on GitHub.\nYou can also clone the repo vkola-lab-docs, edit the relevant markdown files and make a pull request to merge into the main branch. The website will be automatically built and deployed once the pull request is accepted.\n\n\n\n\n\n\n\nThis website is public!\n\n\n\nDo not share any information that you don’t want to be available to the general public.\n\n\n\nCreating a new page\nCreate a new .qmd file and make sure to include the YAML front matter. For example, this page starts with\n---\ntitle: \"Contribute to this website\"\nauthor: \"Matteo Bellitti\"\n---\nMake sure to change the title and author fields. Then write the rest of the document in markdown. See markdown basics on Quarto’s website for a quick introduction.\nThe title field is used to generate the sidebar. Sub-directories will create sections and will be automatically titled based on the directory name (including adding capitalization and substituting spaces for dashes and underscores).\n\n\nQuarto and VS Code\nThere is a VSCode extension that makes editing Quarto documents easier. See also the Quarto documentation about VSCode integration\n\n\nTips and Tricks\nCreating a new file in a subdirectory automatically includes in the sidebar. To control the order in which the pages are displayed in the sidebar, use order in the metadata (see the docs here).\nTo learn more about working with Quarto websites see here.\nTo link to another page, use markdown syntax. For example [this link](Practical Stuff/workstations.qmd) points to the page about the workstations: this link.",
+    "crumbs": [
+      "Contributing to this website"
+    ]
+  },
+  {
+    "objectID": "Practical Stuff/writing manuscripts.html",
+    "href": "Practical Stuff/writing manuscripts.html",
+    "title": "Writing manuscripts",
+    "section": "",
+    "text": "Depends on the journal\nLaTeX + Overleaf\nWord -&gt; templates, bibliography (mendeley)\nAlso explain how to integrate with bibliography management",
+    "crumbs": [
+      "Practical Stuff",
+      "Writing manuscripts"
+    ]
+  },
+  {
+    "objectID": "Practical Stuff/setting up your development environment.html",
+    "href": "Practical Stuff/setting up your development environment.html",
+    "title": "Setting up your development environment",
+    "section": "",
+    "text": "VScode -&gt; also learn how to connect to the workstations\nlearn how to use the workstations\nconda environments\ngit and github -&gt; explain how to use the github organization",
+    "crumbs": [
+      "Practical Stuff",
+      "Setting up your development environment"
+    ]
+  },
+  {
+    "objectID": "Practical Stuff/quals-presentation.html",
+    "href": "Practical Stuff/quals-presentation.html",
+    "title": "Preparing for your PhD qualifying exam",
+    "section": "",
+    "text": "As you start to prepare for your PhD qualifying examination, regardless of your PhD program at BU, you will be expected to present a brief summary of the major aims of your dissertation at a Kolachalama lab meeting.\nThe goal in doing this is to effectively craft a strong abstract to convey the science and communicate your work to the lab, NOT to present your entire qualifying exam slide deck. Think something in the vein of “Three Minute Thesis,” in which participants are expected to “effectively convey [their] research in just three minutes using language that is accessible to a non-specialist audience.”",
+    "crumbs": [
+      "Practical Stuff",
+      "Preparing for your PhD qualifying exam"
+    ]
+  },
+  {
+    "objectID": "Practical Stuff/quals-presentation.html#lab-meeting-presentation",
+    "href": "Practical Stuff/quals-presentation.html#lab-meeting-presentation",
+    "title": "Preparing for your PhD qualifying exam",
+    "section": "Lab meeting presentation",
+    "text": "Lab meeting presentation\nYour lab presentation may take one of two general forms, your choice:\n\nA text-based 4-5 slide presentation\n\nA few supplemental figures are OK\n\nA 30-60 second elevator pitch\n\nNo slides\n\n\nYour presentation should include the following major points:\n\nDissertation title\n\nSome thought should be put into identifying a title that summarizes the unifying theme of your project(s) and the problem you are trying to solve.\n\nThe problem\n\nBRIEF introduction to the importance of your work\nWhat precisely is the problem that you are trying to solve?\n\nBackground / previous work\n\nA brief literature review of what has been done before\n\nScientific/clinical\nTechnical/methodology\n\n\nYour contributions / innovations\n\nScientific/clinical\nTechnical/methodology\n\nFuture work\n\nCould also be a timeline\n\n\nRegardless of the medium, please practice your presentation beforehand! Especially in front of fellow members of the lab 🙂. Your lab mates will be able to give you critical feedback with added benefit of (hopefully) understanding your project context.\nThe sooner you can complete this presentation and start getting feedback from peers, the better. Do not finish your presentation the night before without the chance to get proper feedback!!\nSome example slides from Lingyi, a Data Science PhD student (sign in with your BU email). Text only Slides with supplemental figures",
+    "crumbs": [
+      "Practical Stuff",
+      "Preparing for your PhD qualifying exam"
+    ]
+  },
+  {
+    "objectID": "Practical Stuff/quals-presentation.html#other-notes",
+    "href": "Practical Stuff/quals-presentation.html#other-notes",
+    "title": "Preparing for your PhD qualifying exam",
+    "section": "Other notes",
+    "text": "Other notes\n\nIf you can write the abstract first, then you can write the paper. The same logic applies here!\nIf you would like to reserve another lab meeting at a later time to present your entire slide deck to the lab, please chat with at least 3 lab members.",
+    "crumbs": [
+      "Practical Stuff",
+      "Preparing for your PhD qualifying exam"
+    ]
+  },
+  {
+    "objectID": "Practical Stuff/SCC.html",
+    "href": "Practical Stuff/SCC.html",
+    "title": "SCC",
+    "section": "",
+    "text": "“The Boston University Shared Computing Cluster (SCC) is a heterogeneous Linux cluster […] suitable for high-performance computing.”\n\nTo learn how to use SCC, check out the introductory guides on BU’s website.\nIn practice, you should run your code on SCC if you\n\nNeed to access one of the large datasets, and/or\nNeed a lot of computing power (CPU or GPU)\n\nYou should run on the workstations (or your own device)\n\nFor quick prototyping\nIf your analysis is light: if you’re using tabular data only or doing a regression analysis it’s probably fine.\n\n\n\nThe most common ways of connecting to SCC are via SSH or using OnDemand.\n\nSSH: gives you a terminal interface to SCC. Remember that you have to go through scc4.bu.edu to access the restricted data partitions. For more info, see the official BU guide.\nSCC OnDemand: friendly web based interface. Lets you access the data in your home directory and the lab directory, also lets you run interactive apps (Jupuyter, VSCode, MATLAB, etc.) on SCC via browser. For more info, see the official BU guide. Really, give OnDemand a try, it’s awesome.\n\nIf you use VSCode, you can also connect to SCC using the “Connect to Host” command, which is very convenient for editing your code. Remember: do NOT use the login nodes for any heavy computation, your process will be terminated. When you’re ready to run your code, submit it as a batch job, request a shell, or use the interactive apps on SCC OnDemand.\n\n\n\n\n\n\n\n\n\nNote\n\n\n\n\n\nWhen submitting a job make sure to specify the project name. The global project name is vkolagrp",
+    "crumbs": [
+      "Practical Stuff",
+      "SCC"
+    ]
+  },
+  {
+    "objectID": "Practical Stuff/SCC.html#connecting-to-scc",
+    "href": "Practical Stuff/SCC.html#connecting-to-scc",
+    "title": "SCC",
+    "section": "",
+    "text": "The most common ways of connecting to SCC are via SSH or using OnDemand.\n\nSSH: gives you a terminal interface to SCC. Remember that you have to go through scc4.bu.edu to access the restricted data partitions. For more info, see the official BU guide.\nSCC OnDemand: friendly web based interface. Lets you access the data in your home directory and the lab directory, also lets you run interactive apps (Jupuyter, VSCode, MATLAB, etc.) on SCC via browser. For more info, see the official BU guide. Really, give OnDemand a try, it’s awesome.\n\nIf you use VSCode, you can also connect to SCC using the “Connect to Host” command, which is very convenient for editing your code. Remember: do NOT use the login nodes for any heavy computation, your process will be terminated. When you’re ready to run your code, submit it as a batch job, request a shell, or use the interactive apps on SCC OnDemand.",
+    "crumbs": [
+      "Practical Stuff",
+      "SCC"
+    ]
+  },
+  {
+    "objectID": "Practical Stuff/SCC.html#recommended-scc-workflow",
+    "href": "Practical Stuff/SCC.html#recommended-scc-workflow",
+    "title": "SCC",
+    "section": "",
+    "text": "Note\n\n\n\n\n\nWhen submitting a job make sure to specify the project name. The global project name is vkolagrp",
+    "crumbs": [
+      "Practical Stuff",
+      "SCC"
+    ]
+  },
+  {
     "objectID": "Practical Stuff/bibliography management.html",
     "href": "Practical Stuff/bibliography management.html",
     "title": "Bibliography Management",
@@ -19,17 +135,6 @@
     "crumbs": [
       "Practical Stuff",
       "Using the Workstations"
-    ]
-  },
-  {
-    "objectID": "Practical Stuff/data_organization.html",
-    "href": "Practical Stuff/data_organization.html",
-    "title": "Data Organization",
-    "section": "",
-    "text": "Data Organization\nAll neuro-related datasets are now on SCC.\n\n\n\n\n\n\nWorkstation storage policy changes\n\n\n\nAs we migrate all datasets to SCC storage, we will implement a storage restriction on the workstations. A final decision has not been made yet, but every lab member will be allowed ~150GB to discourage dataset duplication while allowing a reasonable amount of working space.\n\n\nAll datasets in the lab should follow the BIDS standard if datatype makes sense (e.g. MRI, PET, but not necessarily tabular data).\n\n\nRead/Write access to datasets on the workstations\nBy default everyone has read access to the datasets, but to prevent accidents only members of the dataset-editors are allowed do write (or delete) from the dataset directory. To check if you are in this group, look at the output of\n$ groups\nIf you have sudo access and need to add a user to the group, use\n$ sudo usermod -aG dataset-editors user",
-    "crumbs": [
-      "Practical Stuff",
-      "Data Organization"
     ]
   },
   {
@@ -88,53 +193,56 @@
     ]
   },
   {
-    "objectID": "Practical Stuff/SCC.html",
-    "href": "Practical Stuff/SCC.html",
-    "title": "SCC",
+    "objectID": "Practical Stuff/general good practices.html",
+    "href": "Practical Stuff/general good practices.html",
+    "title": "Good practices",
     "section": "",
-    "text": "“The Boston University Shared Computing Cluster (SCC) is a heterogeneous Linux cluster […] suitable for high-performance computing.”\n\nTo learn how to use SCC, check out the introductory guides on BU’s website.\nIn practice, you should run your code on SCC if you\n\nNeed to access one of the large datasets, and/or\nNeed a lot of computing power (CPU or GPU)\n\nYou should run on the workstations (or your own device)\n\nFor quick prototyping\nIf your analysis is light: if you’re using tabular data only or doing a regression analysis it’s probably fine.\n\n\n\nThe most common ways of connecting to SCC are via SSH or using OnDemand.\n\nSSH: gives you a terminal interface to SCC. Remember that you have to go through scc4.bu.edu to access the restricted data partitions. For more info, see the official BU guide.\nSCC OnDemand: friendly web based interface. Lets you access the data in your home directory and the lab directory, also lets you run interactive apps (Jupuyter, VSCode, MATLAB, etc.) on SCC via browser. For more info, see the official BU guide. Really, give OnDemand a try, it’s awesome.\n\nIf you use VSCode, you can also connect to SCC using the “Connect to Host” command, which is very convenient for editing your code. Remember: do NOT use the login nodes for any heavy computation, your process will be terminated. When you’re ready to run your code, submit it as a batch job, request a shell, or use the interactive apps on SCC OnDemand.\n\n\n\n\n\n\n\n\n\nNote\n\n\n\n\n\nWhen submitting a job make sure to specify the project name. The global project name is vkolagrp",
+    "text": "Read “Good enough practices in scientific computing” (Wilson et al. 2017). They talk about how to organize projects, why and how you should made your dataframes tidy, and how to make sure your work is readable, reproducible, and thus extensible.\nIf you expect you’ll be writing a lot of code, also read “Best practices for Scientific Computing” (Wilson et al. 2014), which goes more in depth about software engineering (encapsulation, version control, profiling, debugging, documenting, collaborating).\nTaken mostly from those two papers, a checklist of good practices (and how they’re implemented in the lab):\n\nCollaboration\n\nUse GitHub for everything project-related.\nCreate an overview of your project: write a good `README.md`\nCreate a shared to-do list for the project: use GitHub issues.\nOpen issues on GitHub liberally to discuss ideas, problems, and suggestions.\nMake the license explicit: we recommend the MIT licence.\n\nData management\n\nSave the raw data: all raw datasets live on SCC. You can make temporary copies on one of the workstations, but be aware of the space limitations.\nEnsure the raw data is backed up: that’s why we’re using SCC, they handle all the backups.\nRecord all the steps used to process data.\n\nSoftware\n\nCheck into git (and GitHub) anything that has been written by hand by a human (except data tables).\nWrite explanatory comments at the top of your scripts, with at least one example on how to use it.\nKeep changes small and commit often.\nBe ruthless about eliminating duplication.\nMake dependencies and requirements explicit (e.g. requirements.txt)\n\nManuscripts\n\nKeep a running manuscript as you’re working on the project: we use a mix of Overleaf and Word\nUse a reference manager to automatically handle the bibliography: we recommend Zotero and Mendeley.\n\n\n\n\n\n\nReferences\n\nWilson, Greg, D. A. Aruliah, C. Titus Brown, Neil P. Chue Hong, Matt Davis, Richard T. Guy, Steven H. D. Haddock, et al. 2014. “Best Practices for Scientific Computing.” Edited by Jonathan A. Eisen. PLoS Biology 12 (1): e1001745. https://doi.org/10.1371/journal.pbio.1001745.\n\n\nWilson, Greg, Jennifer Bryan, Karen Cranston, Justin Kitzes, Lex Nederbragt, and Tracy K. Teal. 2017. “Good Enough Practices in Scientific Computing.” Edited by Francis Ouellette. PLOS Computational Biology 13 (6): e1005510. https://doi.org/10.1371/journal.pcbi.1005510.",
     "crumbs": [
       "Practical Stuff",
-      "SCC"
+      "Good practices"
     ]
   },
   {
-    "objectID": "Practical Stuff/SCC.html#connecting-to-scc",
-    "href": "Practical Stuff/SCC.html#connecting-to-scc",
-    "title": "SCC",
+    "objectID": "Practical Stuff/phd_ta_status.html",
+    "href": "Practical Stuff/phd_ta_status.html",
+    "title": "PhD TA Status",
     "section": "",
-    "text": "The most common ways of connecting to SCC are via SSH or using OnDemand.\n\nSSH: gives you a terminal interface to SCC. Remember that you have to go through scc4.bu.edu to access the restricted data partitions. For more info, see the official BU guide.\nSCC OnDemand: friendly web based interface. Lets you access the data in your home directory and the lab directory, also lets you run interactive apps (Jupuyter, VSCode, MATLAB, etc.) on SCC via browser. For more info, see the official BU guide. Really, give OnDemand a try, it’s awesome.\n\nIf you use VSCode, you can also connect to SCC using the “Connect to Host” command, which is very convenient for editing your code. Remember: do NOT use the login nodes for any heavy computation, your process will be terminated. When you’re ready to run your code, submit it as a batch job, request a shell, or use the interactive apps on SCC OnDemand.",
+    "text": "PhD student\nSpring 2025\nSummer 2025\nFall 2025\n\n\n\n\nChonghua\nYes; Searching\nNo\nNo\n\n\nDiala\nYes\nNo\nNo\n\n\nVaruna\nNo\nSearching\nSearching\n\n\nSahana\nNo\nNo\nYes; Searching\n\n\nOsman\n\n\n\n\n\nMeagan\nNo\nNo\nNo\n\n\nLingyi\nYes\nNo\nNo\n\n\nShuyue\nNo\nYes; Searching\nNo\n\n\nSubh\nNo\nNo\nYes; Searching\n\n\nYichi\n\n\n\n\n\nDivya\nNo\nNo\nYes; Searching",
     "crumbs": [
       "Practical Stuff",
-      "SCC"
+      "PhD TA Status"
     ]
   },
   {
-    "objectID": "Practical Stuff/SCC.html#recommended-scc-workflow",
-    "href": "Practical Stuff/SCC.html#recommended-scc-workflow",
-    "title": "SCC",
+    "objectID": "Practical Stuff/data_organization.html",
+    "href": "Practical Stuff/data_organization.html",
+    "title": "Data Organization",
     "section": "",
-    "text": "Note\n\n\n\n\n\nWhen submitting a job make sure to specify the project name. The global project name is vkolagrp",
+    "text": "Data Organization\nAll neuro-related datasets are now on SCC.\n\n\n\n\n\n\nWorkstation storage policy changes\n\n\n\nAs we migrate all datasets to SCC storage, we will implement a storage restriction on the workstations. A final decision has not been made yet, but every lab member will be allowed ~150GB to discourage dataset duplication while allowing a reasonable amount of working space.\n\n\nAll datasets in the lab should follow the BIDS standard if datatype makes sense (e.g. MRI, PET, but not necessarily tabular data).\n\n\nRead/Write access to datasets on the workstations\nBy default everyone has read access to the datasets, but to prevent accidents only members of the dataset-editors are allowed do write (or delete) from the dataset directory. To check if you are in this group, look at the output of\n$ groups\nIf you have sudo access and need to add a user to the group, use\n$ sudo usermod -aG dataset-editors user",
     "crumbs": [
       "Practical Stuff",
-      "SCC"
+      "Data Organization"
     ]
   },
   {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "Welcome!",
+    "objectID": "projects.html",
+    "href": "projects.html",
+    "title": "Active Projects",
     "section": "",
-    "text": "Welcome!\nThis is the knowledge base for the Kolachalama lab.\nIf you have any suggestions, comments, or would like to see a particular topic covered, please open an issue on GitHub."
+    "text": "This is a list of projects in the lab, including who is working on them. If you are interested in joining a particular project, contact any member of the corresponding team.\n\nActive feature acquisition: Osman, Ketan, Karim\nLearning on MRI with missing sequences: Diala, Divya\nZero-shot learning on EEG configuration (train on some electrode config, infer on a different config): Ketan, Osman\n\nEEG are few, and even if you have them often they are taken in a bunch of different configs\n\nImproving ML model performance and interpretability in scenarios with incomplete features: Chongua\nPredicting biomarker status for biological AD: Varuna, Sahana, Shreyas, Lingyi, Mike\nFusion of digital pathology and gene expression to predict precancer: Lingyi\nFoundation model for the assessment of ADRD: Sahana, Matteo, Varuna, Shreyas, Lingyi, Meagan, Ketan\n\ntake multimodal data, routinely collected (text, MRI, EEG)\n\nSpeech deidentification preserving cognitive utility: Meysam, Cody,\n\nanonymize speech data while keeping enough audio features to estimate cognitive impairment\n\nPodGPT: Shuyue, Subh, Ned, Varuna, Meagan, Lindsey, Divya, Shruti, Dithmi\n\naugment performance of LLM with STEM information, from written, audio, and video sources. We have a demo online.\n\nLLM grounding: Yi Liu, Krish Shah\nIdentification of tissue neighborhoods in colorectal cancer: Yichi\nFusion of acoustic and language features for cognitive assessment: Abhi, Serena, Cody\nPractice effects and digital cognitive assessments: Matteo, Meagan\nSleep and digital brain health: Matteo\nAI augmented neuroradiologist: Shreyas, Krish, Olivia, Mike\nVision-Language model for nuclei segmentation: Yi Zheng, Divya\nGuided information retrieval from educational videos: Subh\nEvidence-based medical language model: Shuyue\n\nIntegrate medical professional expertise, database knowledge, and patient values/preferences\n\nEffective drug toxicity on systemic circulation: Aubrey, Yichi\nCorrelation maps of ATN: Meagan, Matteo, Krish\nFusion of whole slide images and gene expression for cancer reoccurrence: Lingyi, Yichi",
+    "crumbs": [
+      "Active Projects"
+    ]
   },
   {
-    "objectID": "contributing.html",
-    "href": "contributing.html",
-    "title": "Contributing to this website",
+    "objectID": "useful links.html",
+    "href": "useful links.html",
+    "title": "Useful Links",
     "section": "",
-    "text": "This site is built with Quarto. It’s set up to build automatically via GitHub Actions, so you don’t even have to install anything, just edit the markdown, commit, and push.\n\nFor small changes, click the “Edit this page” link on the right of the page you want to change. It will redirect you to a markdown editor on GitHub.\nYou can also clone the repo vkola-lab-docs, edit the relevant markdown files and make a pull request to merge into the main branch. The website will be automatically built and deployed once the pull request is accepted.\n\n\n\n\n\n\n\nThis website is public!\n\n\n\nDo not share any information that you don’t want to be available to the general public.\n\n\n\nCreating a new page\nCreate a new .qmd file and make sure to include the YAML front matter. For example, this page starts with\n---\ntitle: \"Contribute to this website\"\nauthor: \"Matteo Bellitti\"\n---\nMake sure to change the title and author fields. Then write the rest of the document in markdown. See markdown basics on Quarto’s website for a quick introduction.\nThe title field is used to generate the sidebar. Sub-directories will create sections and will be automatically titled based on the directory name (including adding capitalization and substituting spaces for dashes and underscores).\n\n\nQuarto and VS Code\nThere is a VSCode extension that makes editing Quarto documents easier. See also the Quarto documentation about VSCode integration\n\n\nTips and Tricks\nCreating a new file in a subdirectory automatically includes in the sidebar. To control the order in which the pages are displayed in the sidebar, use order in the metadata (see the docs here).\nTo learn more about working with Quarto websites see here.\nTo link to another page, use markdown syntax. For example [this link](Practical Stuff/workstations.qmd) points to the page about the workstations: this link.",
+    "text": "Website\nvkola-lab\n\n\nCalendar\nLab Google Calendar\n\n\nGitHub\nvkola-lab\n\n\nSlack\nkolachalamalab\n\n\nYouTube\n@vijayakolachalama\n\n\nHugging Face\nvkola-lab",
     "crumbs": [
-      "Contributing to this website"
+      "Useful Links"
     ]
   },
   {
@@ -157,114 +265,6 @@
     "crumbs": [
       "Data Science",
       "Working with MRIs"
-    ]
-  },
-  {
-    "objectID": "useful links.html",
-    "href": "useful links.html",
-    "title": "Useful Links",
-    "section": "",
-    "text": "Website\nvkola-lab\n\n\nCalendar\nLab Google Calendar\n\n\nGitHub\nvkola-lab\n\n\nSlack\nkolachalamalab\n\n\nYouTube\n@vijayakolachalama\n\n\nHugging Face\nvkola-lab",
-    "crumbs": [
-      "Useful Links"
-    ]
-  },
-  {
-    "objectID": "Data Science/plotting.html",
-    "href": "Data Science/plotting.html",
-    "title": "Making Figures",
-    "section": "",
-    "text": "Matplotlib\nSeaborn -&gt; tall/tidy datasets?\nPlotly/Altair?\nExplain sequential/diverging/qualitative color palettes\nHow to make publication ready figures",
-    "crumbs": [
-      "Data Science",
-      "Making Figures"
-    ]
-  },
-  {
-    "objectID": "projects.html",
-    "href": "projects.html",
-    "title": "Active Projects",
-    "section": "",
-    "text": "This is a list of projects in the lab, including who is working on them. If you are interested in joining a particular project, contact any member of the corresponding team.\n\nActive feature acquisition: Osman, Ketan, Karim\nLearning on MRI with missing sequences: Diala, Divya\nZero-shot learning on EEG configuration (train on some electrode config, infer on a different config): Ketan, Osman\n\nEEG are few, and even if you have them often they are taken in a bunch of different configs\n\nImproving ML model performance and interpretability in scenarios with incomplete features: Chongua\nPredicting biomarker status for biological AD: Varuna, Sahana, Shreyas, Lingyi, Mike\nFusion of digital pathology and gene expression to predict precancer: Lingyi\nFoundation model for the assessment of ADRD: Sahana, Matteo, Varuna, Shreyas, Lingyi, Meagan, Ketan\n\ntake multimodal data, routinely collected (text, MRI, EEG)\n\nSpeech deidentification preserving cognitive utility: Meysam, Cody,\n\nanonymize speech data while keeping enough audio features to estimate cognitive impairment\n\nPodGPT: Shuyue, Subh, Ned, Varuna, Meagan, Lindsey, Divya, Shruti, Dithmi\n\naugment performance of LLM with STEM information, from written, audio, and video sources. We have a demo online.\n\nLLM grounding: Yi Liu, Krish Shah\nIdentification of tissue neighborhoods in colorectal cancer: Yichi\nFusion of acoustic and language features for cognitive assessment: Abhi, Serena, Cody\nPractice effects and digital cognitive assessments: Matteo, Meagan\nSleep and digital brain health: Matteo\nAI augmented neuroradiologist: Shreyas, Krish, Olivia, Mike\nVision-Language model for nuclei segmentation: Yi Zheng, Divya\nGuided information retrieval from educational videos: Subh\nEvidence-based medical language model: Shuyue\n\nIntegrate medical professional expertise, database knowledge, and patient values/preferences\n\nEffective drug toxicity on systemic circulation: Aubrey, Yichi\nCorrelation maps of ATN: Meagan, Matteo, Krish\nFusion of whole slide images and gene expression for cancer reoccurrence: Lingyi, Yichi",
-    "crumbs": [
-      "Active Projects"
-    ]
-  },
-  {
-    "objectID": "Practical Stuff/quals-presentation.html",
-    "href": "Practical Stuff/quals-presentation.html",
-    "title": "Preparing for your PhD qualifying exam",
-    "section": "",
-    "text": "As you start to prepare for your PhD qualifying examination, regardless of your PhD program at BU, you will be expected to present a brief summary of the major aims of your dissertation at a Kolachalama lab meeting.\nThe goal in doing this is to effectively craft a strong abstract to convey the science and communicate your work to the lab, NOT to present your entire qualifying exam slide deck. Think something in the vein of “Three Minute Thesis,” in which participants are expected to “effectively convey [their] research in just three minutes using language that is accessible to a non-specialist audience.”",
-    "crumbs": [
-      "Practical Stuff",
-      "Preparing for your PhD qualifying exam"
-    ]
-  },
-  {
-    "objectID": "Practical Stuff/quals-presentation.html#lab-meeting-presentation",
-    "href": "Practical Stuff/quals-presentation.html#lab-meeting-presentation",
-    "title": "Preparing for your PhD qualifying exam",
-    "section": "Lab meeting presentation",
-    "text": "Lab meeting presentation\nYour lab presentation may take one of two general forms, your choice:\n\nA text-based 4-5 slide presentation\n\nA few supplemental figures are OK\n\nA 30-60 second elevator pitch\n\nNo slides\n\n\nYour presentation should include the following major points:\n\nDissertation title\n\nSome thought should be put into identifying a title that summarizes the unifying theme of your project(s) and the problem you are trying to solve.\n\nThe problem\n\nBRIEF introduction to the importance of your work\nWhat precisely is the problem that you are trying to solve?\n\nBackground / previous work\n\nA brief literature review of what has been done before\n\nScientific/clinical\nTechnical/methodology\n\n\nYour contributions / innovations\n\nScientific/clinical\nTechnical/methodology\n\nFuture work\n\nCould also be a timeline\n\n\nRegardless of the medium, please practice your presentation beforehand! Especially in front of fellow members of the lab 🙂. Your lab mates will be able to give you critical feedback with added benefit of (hopefully) understanding your project context.\nThe sooner you can complete this presentation and start getting feedback from peers, the better. Do not finish your presentation the night before without the chance to get proper feedback!!\nSome example slides from Lingyi, a Data Science PhD student (sign in with your BU email). Text only Slides with supplemental figures",
-    "crumbs": [
-      "Practical Stuff",
-      "Preparing for your PhD qualifying exam"
-    ]
-  },
-  {
-    "objectID": "Practical Stuff/quals-presentation.html#other-notes",
-    "href": "Practical Stuff/quals-presentation.html#other-notes",
-    "title": "Preparing for your PhD qualifying exam",
-    "section": "Other notes",
-    "text": "Other notes\n\nIf you can write the abstract first, then you can write the paper. The same logic applies here!\nIf you would like to reserve another lab meeting at a later time to present your entire slide deck to the lab, please chat with at least 3 lab members.",
-    "crumbs": [
-      "Practical Stuff",
-      "Preparing for your PhD qualifying exam"
-    ]
-  },
-  {
-    "objectID": "Practical Stuff/phd_ta_status.html",
-    "href": "Practical Stuff/phd_ta_status.html",
-    "title": "PhD TA Status",
-    "section": "",
-    "text": "PhD student\nSpring 2025\nSummer 2025\nFall 2025\n\n\n\n\nChonghua\nYes; Searching\nNo\nNo\n\n\nDiala\nYes\nNo\nNo\n\n\nVaruna\nNo\nSearching\nSearching\n\n\nSahana\nNo\nNo\nYes; Searching\n\n\nOsman\n\n\n\n\n\nMeagan\nNo\nNo\nNo\n\n\nLingyi\nYes\nNo\nNo\n\n\nShuyue\nNo\nYes; Searching\nNo\n\n\nSubh\nNo\nNo\nYes; Searching\n\n\nYichi\n\n\n\n\n\nDivya\nNo\nNo\nYes; Searching",
-    "crumbs": [
-      "Practical Stuff",
-      "PhD TA Status"
-    ]
-  },
-  {
-    "objectID": "Practical Stuff/writing manuscripts.html",
-    "href": "Practical Stuff/writing manuscripts.html",
-    "title": "Writing manuscripts",
-    "section": "",
-    "text": "Depends on the journal\nLaTeX + Overleaf\nWord -&gt; templates, bibliography (mendeley)\nAlso explain how to integrate with bibliography management",
-    "crumbs": [
-      "Practical Stuff",
-      "Writing manuscripts"
-    ]
-  },
-  {
-    "objectID": "Practical Stuff/general good practices.html",
-    "href": "Practical Stuff/general good practices.html",
-    "title": "Good practices",
-    "section": "",
-    "text": "Read “Good enough practices in scientific computing” (Wilson et al. 2017). They talk about how to organize projects, why and how you should made your dataframes tidy, and how to make sure your work is readable, reproducible, and thus extensible.\nIf you expect you’ll be writing a lot of code, also read “Best practices for Scientific Computing” (Wilson et al. 2014), which goes more in depth about software engineering (encapsulation, version control, profiling, debugging, documenting, collaborating).\nTaken mostly from those two papers, a checklist of good practices (and how they’re implemented in the lab):\n\nCollaboration\n\nUse GitHub for everything project-related.\nCreate an overview of your project: write a good `README.md`\nCreate a shared to-do list for the project: use GitHub issues.\nOpen issues on GitHub liberally to discuss ideas, problems, and suggestions.\nMake the license explicit: we recommend the MIT licence.\n\nData management\n\nSave the raw data: all raw datasets live on SCC. You can make temporary copies on one of the workstations, but be aware of the space limitations.\nEnsure the raw data is backed up: that’s why we’re using SCC, they handle all the backups.\nRecord all the steps used to process data.\n\nSoftware\n\nCheck into git (and GitHub) anything that has been written by hand by a human (except data tables).\nWrite explanatory comments at the top of your scripts, with at least one example on how to use it.\nKeep changes small and commit often.\nBe ruthless about eliminating duplication.\nMake dependencies and requirements explicit (e.g. requirements.txt)\n\nManuscripts\n\nKeep a running manuscript as you’re working on the project: we use a mix of Overleaf and Word\nUse a reference manager to automatically handle the bibliography: we recommend Zotero and Mendeley.\n\n\n\n\n\n\nReferences\n\nWilson, Greg, D. A. Aruliah, C. Titus Brown, Neil P. Chue Hong, Matt Davis, Richard T. Guy, Steven H. D. Haddock, et al. 2014. “Best Practices for Scientific Computing.” Edited by Jonathan A. Eisen. PLoS Biology 12 (1): e1001745. https://doi.org/10.1371/journal.pbio.1001745.\n\n\nWilson, Greg, Jennifer Bryan, Karen Cranston, Justin Kitzes, Lex Nederbragt, and Tracy K. Teal. 2017. “Good Enough Practices in Scientific Computing.” Edited by Francis Ouellette. PLOS Computational Biology 13 (6): e1005510. https://doi.org/10.1371/journal.pcbi.1005510.",
-    "crumbs": [
-      "Practical Stuff",
-      "Good practices"
-    ]
-  },
-  {
-    "objectID": "Practical Stuff/setting up your development environment.html",
-    "href": "Practical Stuff/setting up your development environment.html",
-    "title": "Setting up your development environment",
-    "section": "",
-    "text": "VScode -&gt; also learn how to connect to the workstations\nlearn how to use the workstations\nconda environments\ngit and github -&gt; explain how to use the github organization",
-    "crumbs": [
-      "Practical Stuff",
-      "Setting up your development environment"
     ]
   }
 ]
